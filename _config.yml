@@ -22,9 +22,8 @@ title: Anna Bambridge
 #email:
 description: >- # this means to ignore newlines until "baseurl:"
   Somatic seeing and holistic vision.
-baseurl: "/home" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anna-devil-op.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#url: "http://localhost:4000"
 #twitter_username: jekyllrb
 #github_username:  anna-devil-op
 
