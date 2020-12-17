@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-    border-color: $theme-primary;
+    border-color: $theme-dark;
     border-width: 3px;
     max-width: 50px;
 }
@@ -44,11 +44,12 @@ p {
 
 .bg-primary {
     background-color: $theme-primary;
+    color: $theme-dark;
 }
 
 .bg-dark {
     background-color: $theme-dark;
-    color: white;
+    color: $theme-primary;
 }
 
 .text-faded {
@@ -278,7 +279,7 @@ header {
     }
 }
 
-.call-to-action {
+.about {
     h2 {
         margin: 0 auto 20px;
     }
