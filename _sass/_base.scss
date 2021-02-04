@@ -43,7 +43,7 @@ p {
 }
 
 .bg-primary {
-    background-color: $theme-primary;
+    background-color: $theme-background;
     color: $theme-dark;
 }
 
@@ -110,7 +110,7 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
+        background-color: rgba(black, 0.2);
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
@@ -156,15 +156,17 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/leaves2.jpg');
     text-align: center;
-    color: white;
+    color: rgba(white, 0.8);
     .header-content {
         position: relative;
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
+            background-color: rgba(black, .6);
+            padding: 20px 20px 20px 20px;
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
@@ -176,7 +178,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
+                color: rgba(white, .8);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
