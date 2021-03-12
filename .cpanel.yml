@@ -1,0 +1,15 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/embodie2/public_html/
+    - /bin/cp _site/404.html $DEPLOYPATH
+    - /bin/cp _site/feed.xml $DEPLOYPATH
+    - /bin/cp _site/index.html $DEPLOYPATH
+    - /bin/cp _site/LICENCE $DEPLOYPATH
+    - /bin/cp _site/README.md $DEPLOYPATH
+    - /bin/cp -R _site/assets $DEPLOYPATH
+    - /bin/cp -R _site/css $DEPLOYPATH
+    - /bin/cp -R _site/font-awesome $DEPLOYPATH
+    - /bin/cp -R _site/fonts $DEPLOYPATH
+    - /bin/cp -R _site/img $DEPLOYPATH
+    - /bin/cp -R _site/js $DEPLOYPATH
