@@ -27,6 +27,10 @@ a {
     }
 }
 
+a.inert {
+    color: inherit;
+}
+
 h1,
 h2,
 h3,
@@ -156,7 +160,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/leaves2.jpg');
+    background-image: url('../img/header.jpg');
     text-align: center;
     color: rgba(white, 0.8);
     .header-content {
@@ -178,9 +182,9 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .8);
-                font-size: 16px;
-                margin-bottom: 50px;
+                color: rgba(white, .9);
+                font-size: 18px;
+                margin-bottom: 10px;
             }
         }
     }
@@ -198,7 +202,7 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 p {
-                    font-size: 18px;
+                    font-size: 20px;
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
@@ -232,9 +236,8 @@ header {
     margin: 0 auto;
     .portfolio-box-caption {
         color: white;
-        opacity: 0;
+        opacity: 1;
         display: block;
-        background: rgba( $theme-primary, .9 );
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -242,11 +245,13 @@ header {
         height: 100%;
         @include transition-all;
         .portfolio-box-caption-content {
-            width: 100%;
+            width: 50%;
+            opacity: 1;
             text-align: center;
             position: absolute;
-            top: 50%;
+            top: 70%;
             transform: translateY(-50%);
+            background: rgba( $theme-primary, .8 );
             .project-category,
             .project-name {
                 @include sans-serif-font;
@@ -264,7 +269,7 @@ header {
     }
     &:hover {
         .portfolio-box-caption {
-            opacity: 1;
+            background: rgba( $theme-primary, .5 );
         }
     }
     @media (min-width: 768px) {
