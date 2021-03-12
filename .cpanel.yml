@@ -2,6 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/embodie2/public_html/
+    - /bin/cp _site/.htaccess $DEPLOYPATH
     - /bin/cp _site/404.html $DEPLOYPATH
     - /bin/cp _site/feed.xml $DEPLOYPATH
     - /bin/cp _site/index.html $DEPLOYPATH
