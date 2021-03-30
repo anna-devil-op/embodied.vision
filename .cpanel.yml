@@ -8,6 +8,13 @@ deployment:
     - /bin/cp _site/index.html $DEPLOYPATH
     - /bin/cp _site/LICENCE $DEPLOYPATH
     - /bin/cp _site/README.md $DEPLOYPATH
+    - /bin/cp _site/android-chrome-192x192.png
+    - /bin/cp _site/android-chrome-512x512.png
+    - /bin/cp _site/apple-touch-icon.png
+    - /bin/cp _site/favicon-16x16.png
+    - /bin/cp _site/favicon-32x32.png
+    - /bin/cp _site/favicon.ico
+    - /bin/cp _site/site.webmanifest
     - /bin/cp -R _site/assets $DEPLOYPATH
     - /bin/cp -R _site/css $DEPLOYPATH
     - /bin/cp -R _site/font-awesome $DEPLOYPATH

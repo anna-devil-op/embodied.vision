@@ -34,9 +34,10 @@
 // }
 
 // variables.less
-$theme-primary: rgba(#915a12, 0.8);
+$theme-primary: white;
 $theme-dark: #222;
 $theme-background: white;
+$theme-secondary: rgb(212, 0, 64);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

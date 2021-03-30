@@ -4,19 +4,26 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Get In Touch!</h2>
                 <hr>
-                <p>Have a question or comment? Contact me by email or by phone</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 text-center">
-                <a href="mailto:{{ site.email }}">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p>{{ site.email }}</p>
-                </a>
-            </div>
-            <div class="col-lg-6 text-center">
-                <i class="fa fa-phone fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{ site.mobile_phone }}</p>
+            <div id="contact_app"></div>
+            <div class="col-sm-6 text-center">
+                <p>Have a question or comment? Contact me by email or by phone:</p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="mailto:{{ site.email }}">
+                            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                            <p>{{ site.email }}</p>
+                        </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="tel:{{ site.mobile_phone }}">
+                            <i class="fa fa-phone fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                            <p>{{ site.mobile_phone }}</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -20,10 +20,10 @@ hr.light {
 
 a {
     @include transition-all;
-    color: $theme-primary;
+    color: $theme-secondary;
     &:hover,
     &:focus {
-        color: darken($theme-primary, 10%);
+        color: darken($theme-secondary, 25%);
     }
 }
 
@@ -57,7 +57,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: rgba(white, .8);
 }
 
 section {
@@ -75,18 +75,18 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color: rgba($theme-primary, 0.9);
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
+        color: $theme-secondary;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: darken($theme-dark, 10%);
         }
     }
     .nav {
@@ -96,15 +96,15 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: $theme-dark;
+                color: $theme-secondary;
                 &:hover {
-                    color: $theme-primary;
+                    color: $theme-dark;
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: $theme-primary !important;
+                    color: $theme-secondary !important;
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
@@ -115,37 +115,37 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: rgba(black, 0.2);
-        border-color: rgba(white, .3);
+        border-color: rgba($theme-secondary, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: rgba($theme-secondary, .7);
             &:hover,
             &:focus {
-                color: white;
+                color: $theme-dark;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba($theme-dark, .7);
             &:hover {
-                color: white;
+                color: $theme-dark;
             }
         }
         &.affix {
-            background-color: white;
+            background-color: $theme-primary;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
-                color: $theme-primary;
+                color: darken($theme-secondary, 20%);
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken($theme-primary, 10%);
+                    color: $theme-secondary;
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
                 color: $theme-dark;
                 &:hover {
-                    color: $theme-primary;
+                    color: darken($theme-secondary, 10%);
                 }
             }
         }
@@ -155,25 +155,25 @@ aside {
 // Homepage Header
 
 header {
+    padding-top: 70px;
     position: relative;
     width: 100%;
     min-height: auto;
-    @include background-cover;
-    background-position: center;
-    background-image: url('../img/header.jpg');
     text-align: center;
-    color: rgba(white, 0.8);
+    color: $theme-dark;
+    .header-image {
+        max-width: 75%;
+        height: auto;
+        float: none;
+    }
     .header-content {
         position: relative;
-        text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
-            background-color: rgba(black, .4);
-            padding: 20px 20px 20px 20px;
+            padding: 20px 100px 20px 100px;
             h1 {
                 font-weight: 700;
-                //text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
             }
@@ -182,7 +182,6 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .9);
                 font-size: 18px;
                 margin-bottom: 10px;
             }
@@ -190,9 +189,14 @@ header {
     }
     @media (min-width: 768px) {
         min-height: 100%;
+        .header-image {
+            max-width: 50%;
+            float: left;
+        }
         .header-content {
+            text-align: center;
             position: absolute;
-            top: 50%;
+            top: 40%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -202,7 +206,8 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 p {
-                    font-size: 20px;
+                    color: white, .9;
+                    font-size: 28px;
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
@@ -232,10 +237,14 @@ header {
 .portfolio-box {
     position: relative;
     display: block;
-    max-width: 650px;
+    max-width: 500px;
+    min-height: 250px;
     margin: 0 auto;
+    img {
+        border-radius: 20px;
+    }
     .portfolio-box-caption {
-        color: white;
+        color: $theme-primary;
         opacity: 1;
         display: block;
         position: absolute;
@@ -243,15 +252,16 @@ header {
         text-align: center;
         width: 100%;
         height: 100%;
+        border-radius: 20px;
         @include transition-all;
         .portfolio-box-caption-content {
-            width: 50%;
+            width: 100%;
             opacity: 1;
             text-align: center;
             position: absolute;
-            top: 70%;
+            top: 80%;
             transform: translateY(-50%);
-            background: rgba( $theme-primary, .8 );
+            background: rgba($theme-dark, .6);
             .project-category,
             .project-name {
                 @include sans-serif-font;
@@ -269,7 +279,11 @@ header {
     }
     &:hover {
         .portfolio-box-caption {
-            background: rgba( $theme-primary, .5 );
+            background: rgba( $theme-primary, .3);
+            border: 2px solid $theme-secondary;
+            .portfolio-box-caption-content {
+                background: $theme-dark;
+            }
         }
     }
     @media (min-width: 768px) {
@@ -308,7 +322,7 @@ header {
 }
 
 .btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    @include button-variant($theme-primary, $theme-secondary, $theme-dark);
 }
 
 .btn {
@@ -355,5 +369,72 @@ img::-moz-selection {
 
 body {
     -webkit-tap-highlight-color: $theme-dark;
+    height:100%;
 }
 
+html {
+    height: 100%;
+}
+
+.parallax {
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_image_1 {
+    @extend .parallax;
+    background-image: url("../img/parallax_image_1");
+}
+
+.parallax_image_2 {
+    @extend .parallax;
+    background-image: url("../img/parallax_image_2");
+}
+
+.parallax_image_3 {
+    @extend .parallax;
+    background-image: url("../img/parallax_image_3");
+}
+
+.parallax_image_4 {
+    @extend .parallax;
+    background-image: url("../img/parallax_image_4");
+}
+
+.parallax_image_5 {
+    @extend .parallax;
+    background-image: url("../img/parallax_image_5");
+}
+
+ /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.theme-secondary {
+    color: $theme-secondary;
+}
+
+.profile-image {
+    border-radius: 6px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 180px;
+    height: auto;
+}
+
+.row-margin-20 {
+    margin-top: 20px;
+}
+
+@media (max-device-width: 768px) {
+    .p-b-sm-50 {
+        padding-bottom: 50px;
+    }
+}

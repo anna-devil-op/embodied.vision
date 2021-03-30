@@ -5,12 +5,12 @@
     transition: all 0.35s;
 }
 
-@mixin background-cover()
+@mixin background-size($size)
 {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: $size;
+    -moz-background-size: $size;
+    background-size: $size;
+    -o-background-size: $size;
 }
 
 @mixin button-variant($color, $background, $border)
