@@ -1,26 +1,31 @@
 <section class="bg-primary" id="contact">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-md-10 col-lg-offset-1">
                 <h2 class="section-heading">Get In Touch!</h2>
-                <hr>
             </div>
         </div>
         <div class="row">
-            <div id="contact_app"></div>
-            <div class="col-sm-6 text-center">
-                <p>Have a question or comment? Contact me by email or by phone:</p>
+            <div class="col-md-10 col-md-offset-1">
+                <div id="contact_app">
+                    If you would like more information on my classes please fill in the contact form below. Tick the box if you'd like to be on my mailing list too. I'll let you know first about new workshops coming up and I'll never share your address with anyone. I send out emails about every couple of months so it won't be heavy on your inbox either.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-center">
+                <p class="text-center">Alternatively you can contact me directly by email or by phone:</p>
                 <div class="row">
                     <div class="col-sm-6">
                         <a href="mailto:{{ site.email }}">
                             <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                            <p>{{ site.email }}</p>
+                            <p class="text-center">{{ site.email }}</p>
                         </a>
                     </div>
                     <div class="col-sm-6">
                         <a href="tel:{{ site.mobile_phone }}">
                             <i class="fa fa-phone fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                            <p>{{ site.mobile_phone }}</p>
+                            <p class="text-center">{{ site.mobile_phone }}</p>
                         </a>
                     </div>
                 </div>

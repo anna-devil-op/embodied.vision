@@ -28,7 +28,10 @@
 	.open > .dropdown-toggle & {
 		color: $color;
 		background-color: darken($background, 5%);
-    border-color: darken($border, 7%);
+    	border-color: darken($border, 7%);
+        transform: translate(1px,1px);
+		box-shadow: -2px -2px 10px rgba(0,0,0,.2);
+        transition: transform .5s, box-shadow .5s, background-color .5s;
 	}
 	&:active,
 	&.active,
@@ -58,9 +61,4 @@
 @mixin sans-serif-font()
 {
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-
-@mixin serif-font()
-{
-	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }

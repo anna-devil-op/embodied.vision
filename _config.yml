@@ -44,7 +44,7 @@ saas:
 #
 exclude:
   - node_modules/
-  - anna-devil-op.code-workspace
+  - embodied.vision.code-workspace
   - package.json
   - package-lock.json
   - img/potentials/

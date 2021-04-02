@@ -5,6 +5,7 @@
 const contactModel = (function() {
   let _email = '';
   let _name = '';
+  let _message = '';
   let _interests = new Set();
 
   let setEmail = (email) => { _email = email };
@@ -19,11 +20,15 @@ const contactModel = (function() {
 
   let setInterested = (interest, interested) => { (interested) ? _interests.add(interest) : _interests.delete(interest) }
 
+  let setMessage = (message) => { _message = message };
+
+  let getMessage = () => _message;
+
   let canSubmit = () => _email !== '' && _interests.size > 0;
 
   async function signup() {
     try {
-      let payload = {"email": _email, "name": _name, "interests": Array.from(_interests)};
+      let payload = {"email": _email, "name": _name, "interests": Array.from(_interests), "message": _message};
       await m.request({
         method: "POST",
         url: "{{ site.contacts_url }}",
@@ -42,6 +47,8 @@ const contactModel = (function() {
     setName,
     hasInterest,
     setInterested,
+    getMessage,
+    setMessage,
     canSubmit,
     signup,
   }
@@ -50,30 +57,39 @@ const contactModel = (function() {
 const interests = [
   'Eyesight Matters in Health',
   'Bates Method Fundamentals',
-  'Tailored individual sessions',
   'Somatic Seeing',
+  'One to One Sessions',
 ]
 
 const MAILING_LIST = 'Mailing list';
 
-const contact_app = {
+const contact_app = document.getElementById('contact_app');
+const introduction = contact_app.textContent;
+
+m.mount(contact_app, {
   view: function() {
-    return m('.col-sm-6 .p-b-sm-50', [
-      m('p', 'If you would like more information on my classes or you would like to receive email updates on future classes and workshops please fill in the contact form below.'),
-      m('fieldset', [
+    return m('div', [
+      m('p', introduction),
+      m('fieldset.col-md-8 col-md-offset-2', [
         m('.form-group', [
-          m('label', {for: '#contact-name'}, 'Name'),
+          m('label', {for: '#contact_name'}, 'Name'),
           m('input.form-control#contact_name[type="text"][placeholder="Your name"]', {
             oninput: e => contactModel.setName(e.target.value)
           }),
         ]),
         m('.form-group', [
-          m('label', {for: ''}, 'Email'),
+          m('label', {for: '#contact_email'}, 'Email'),
           m('input.form-control#contact_email[type="email"][placeholder="Email"]', {
             oninput: e => contactModel.setEmail(e.target.value)
           }),
         ]),
         m('.form-group', [
+          m('label', {for: 'contact_message'}, 'Message'),
+          m('textarea.form-control#contact_message[placeholder="If you would like to attend a course can you please write a little about what you do and why you would like to attend this course?"]', {
+            oninput: e => contactModel.setMessage(e.target.value)
+          }),
+        ]),
+        m('.form-group .invisible', [
           m('label', [
             'I am interested in:',
             interests.map((interest) => {
@@ -107,24 +123,23 @@ const contact_app = {
           m('button.btn .btn-primary .btn-xl', {
             disabled: !contactModel.canSubmit(),
             onclick: contactModel.signup
-          }, 'Contact Me'),
+          }, 'Send'),
         ]),
       ])
     ]);
   }
-}
-
-m.mount(document.getElementById('contact_app'), contact_app);
+});
 
 let infoButtons = document.getElementsByClassName('info-button');
 for (let infoButton of infoButtons) {
+  let interest = infoButton.id;
+  let buttonText = infoButton.innerHTML;
   m.mount(infoButton, {
     view: function() {
-      let interest = infoButton.id;
-      return m('a.btn .btn-primary .btn-xl .page-scroll',{
+      return m('a.btn .btn-primary .btn-xl .page-scroll', {
         href: '#contact',
         onclick: () => contactModel.setInterested(interest, true),
-      }, 'More Information');
+      }, buttonText);
     }
   });
 }

@@ -4,5 +4,5 @@
 vendor
 node_modules
 
-anna-devil-op.code-workspace
+*.code-workspace
 img/potentials/
