@@ -20,7 +20,7 @@ const contactModel = (function() {
 
   let getMessage = () => _message;
 
-  let canSubmit = () => _email !== '' && _interests.size > 0;
+  let canSubmit = () => _email !== '' && _name !== '';
 
   async function signup() {
     try {
@@ -68,13 +68,13 @@ m.mount(contact_app, {
       m('p', introduction),
       m('fieldset.col-md-8 col-md-offset-2', [
         m('.form-group', [
-          m('label', {for: '#contact_name'}, 'Name'),
+          m('label', {for: '#contact_name'}, 'Name (required)'),
           m('input.form-control#contact_name[type="text"][placeholder="Your name"]', {
             oninput: e => contactModel.setName(e.target.value)
           }),
         ]),
         m('.form-group', [
-          m('label', {for: '#contact_email'}, 'Email'),
+          m('label', {for: '#contact_email'}, 'Email (required)'),
           m('input.form-control#contact_email[type="email"][placeholder="Email"]', {
             oninput: e => contactModel.setEmail(e.target.value)
           }),
