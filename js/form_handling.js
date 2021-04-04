@@ -13,6 +13,7 @@ const contactModel = (function() {
 
   let _clear = () => {
     _email = '';
+    _isValidEmail = false;
     _name = '';
     _message = '';
     _interests.clear();
@@ -119,7 +120,8 @@ const emailComponent = (function () {
       return m('.form-group', [
         m('label', {for: '#contact_email'}, 'Email (required)'),
         m('input.form-control#contact_email[type="email"]', {
-          oninput: e => contactModel.setEmail(e.target.value)
+          oninput: e => contactModel.setEmail(e.target.value),
+          value: contactModel.getEmail(),
         }),
       ]);
     } else {
@@ -129,7 +131,8 @@ const emailComponent = (function () {
           m('span.validation-error', "invalid")
         ]),
         m('input.form-control.invalid-input#contact_email[type="email"]', {
-          oninput: e => contactModel.setEmail(e.target.value)
+          oninput: e => contactModel.setEmail(e.target.value),
+          value: contactModel.getEmail(),
         }),
       ]);
     }
@@ -149,7 +152,8 @@ m.mount(contact_app, {
         m('.form-group', [
           m('label', {for: '#contact_name'}, 'Name (required)'),
           m('input.form-control#contact_name[type="text"]', {
-            oninput: e => contactModel.setName(e.target.value)
+            oninput: e => contactModel.setName(e.target.value),
+            value: contactModel.getName(),
           }),
         ]),
         m(emailComponent),
@@ -157,7 +161,8 @@ m.mount(contact_app, {
           m('p', "If you would like to attend a course can you please write a little about what you do and why you would like to attend this course?"),
           m('label', {for: 'contact_message'}, 'Message'),
           m('textarea.form-control#contact_message', {
-            oninput: e => contactModel.setMessage(e.target.value)
+            oninput: e => contactModel.setMessage(e.target.value),
+            value: contactModel.getMessage(),
           }),
         ]),
         m('.form-group .invisible', [
