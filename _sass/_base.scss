@@ -249,6 +249,8 @@ header {
             width: auto;
             max-height: 100%;
             max-width: 100%;
+            animation: fadeIn;
+            animation-duration: 1s;
         }
         .header-content {
             animation: slideInRight;
