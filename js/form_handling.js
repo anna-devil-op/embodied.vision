@@ -4,15 +4,27 @@
 
 const contactModel = (function() {
   let _email = '';
+  let _isValidEmail = false;
   let _name = '';
   let _message = '';
   let _interests = new Set();
+  let _signupDetails = null;
+  let _signupError = false;
 
-  let setEmail = (email) => { _email = email };
+  let _clear = () => {
+    _email = '';
+    _name = '';
+    _message = '';
+    _interests.clear();
+  }
+
+  let setEmail = (email) => { _email = email; _isValidEmail = (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(_email)); }
+
+  let isValidEmail = () => _isValidEmail;
 
   let getEmail = () => _email;
 
-  let setName = (name) => { _name = name };
+  let setName = (name) => { _name = name }
 
   let getName = () => _name;
 
@@ -20,29 +32,37 @@ const contactModel = (function() {
 
   let setInterested = (interest, interested) => { (interested) ? _interests.add(interest) : _interests.delete(interest) }
 
-  let setMessage = (message) => { _message = message };
+  let setMessage = (message) => { _message = message }
 
   let getMessage = () => _message;
 
-  let canSubmit = () => _email !== '' && _name !== '';
+  let canSubmit = () => _email !== '' && _isValidEmail && _name !== '';
+
+  let signupSuccessful = () => !_signupError;
+
+  let getSignupDetails = () => _signupDetails;
 
   async function signup() {
-    try {
-      let payload = {"email": _email, "name": _name, "interests": Array.from(_interests), "message": _message};
-      await m.request({
-        method: "POST",
-        url: "{{ site.contacts_url }}",
-        body: payload,
-      });
-      console.log(`Signed up with ${JSON.stringify(payload)}`);
-    } catch(error) {
-      console.log(`Failed to sign up with email ${_email} because ${JSON.stringify(error)}`);
-    }
+    _signupDetails = null;
+    _signupError = false;
+    let payload = {"email": _email, "name": _name, "interests": Array.from(_interests), "message": _message};
+    m.request({
+      method: "POST",
+      url: "{{ site.contacts_url }}",
+      body: payload,
+    }).then(value => {
+      _signupDetails = payload;
+      _clear();
+    }, reason => {
+      _signupError = true;
+      console.log(`Failed to submit contact details to the server because: ${JSON.stringify(reason)}`);
+    });
   }
 
   return {
     getEmail,
     setEmail,
+    isValidEmail,
     getName,
     setName,
     hasInterest,
@@ -50,6 +70,8 @@ const contactModel = (function() {
     getMessage,
     setMessage,
     canSubmit,
+    signupSuccessful,
+    getSignupDetails,
     signup,
   }
 })();
@@ -66,6 +88,59 @@ const MAILING_LIST = 'Mailing list';
 const contact_app = document.getElementById('contact_app');
 const introduction = contact_app.textContent;
 
+const signupComponent = (function() {
+  function viewSignupSuccess(name) {
+    return m('.contact-signup-success', ["Thank you ", m('em', name), ", your message has been sent to Anna."]);
+  }
+  
+  function viewSignupFailure(name) {
+    return m('.contact-signup-fail', ["Sorry ", m('em', name), ", a problem was encountered and your message has not been sent to Anna."]);
+  }
+  
+  function view() {
+    if (contactModel.signupSuccessful()) {
+      const signupDetails = contactModel.getSignupDetails();
+      if (signupDetails) {
+        return viewSignupSuccess(signupDetails.name);
+      }
+    } else {
+      return viewSignupFailure(contactModel.getName());
+    }
+  }
+  
+  return {
+    view,
+  }
+})();
+
+const emailComponent = (function () {
+  function view() {
+    if (contactModel.getEmail() == '' || contactModel.isValidEmail()) {
+      return m('.form-group', [
+        m('label', {for: '#contact_email'}, 'Email (required)'),
+        m('input.form-control#contact_email[type="email"]', {
+          oninput: e => contactModel.setEmail(e.target.value)
+        }),
+      ]);
+    } else {
+      return m('.form-group', [
+        m('label', {for: '#contact_email'}, [
+          'Email (required)',
+          m('span.validation-error', "invalid")
+        ]),
+        m('input.form-control.invalid-input#contact_email[type="email"]', {
+          oninput: e => contactModel.setEmail(e.target.value)
+        }),
+      ]);
+    }
+  }
+
+  return {
+    view,
+  }
+})();
+
+
 m.mount(contact_app, {
   view: function() {
     return m('div', [
@@ -73,19 +148,15 @@ m.mount(contact_app, {
       m('fieldset.col-md-8 col-md-offset-2', [
         m('.form-group', [
           m('label', {for: '#contact_name'}, 'Name (required)'),
-          m('input.form-control#contact_name[type="text"][placeholder="Your name"]', {
+          m('input.form-control#contact_name[type="text"]', {
             oninput: e => contactModel.setName(e.target.value)
           }),
         ]),
+        m(emailComponent),
         m('.form-group', [
-          m('label', {for: '#contact_email'}, 'Email (required)'),
-          m('input.form-control#contact_email[type="email"][placeholder="Email"]', {
-            oninput: e => contactModel.setEmail(e.target.value)
-          }),
-        ]),
-        m('.form-group', [
+          m('p', "If you would like to attend a course can you please write a little about what you do and why you would like to attend this course?"),
           m('label', {for: 'contact_message'}, 'Message'),
-          m('textarea.form-control#contact_message[placeholder="If you would like to attend a course can you please write a little about what you do and why you would like to attend this course?"]', {
+          m('textarea.form-control#contact_message', {
             oninput: e => contactModel.setMessage(e.target.value)
           }),
         ]),
@@ -125,6 +196,7 @@ m.mount(contact_app, {
             onclick: contactModel.signup
           }, 'Send'),
         ]),
+        m(signupComponent),
       ])
     ]);
   }

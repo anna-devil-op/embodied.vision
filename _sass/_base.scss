@@ -506,6 +506,31 @@ ul.portfolio-list {
     display: none;
 }
 
+.contact-signup-result {
+	padding: 10px 20px;
+}
+
+.contact-signup-success {
+    @extend .contact-signup-result;
+    background-color: lightgreen;
+}
+
+.contact-signup-fail {
+    @extend .contact-signup-result;
+    background-color: rgb(228, 72, 58);
+}
+
+.invalid-input {
+    border-color: red;
+}
+
+.validation-error {
+    font-style: italic;
+    font-weight: 400;
+    color: red;
+    padding-left: 20px;
+}
+
 @media (max-device-width: 768px) {
     .p-b-sm-50 {
         padding-bottom: 50px;

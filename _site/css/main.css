@@ -183,6 +183,16 @@ ul.portfolio-list li:before { content: "\00BB"; position: absolute; left: 20px; 
 
 .invisible { display: none; }
 
+.contact-signup-result, .contact-signup-fail, .contact-signup-success { padding: 10px 20px; }
+
+.contact-signup-success { background-color: lightgreen; }
+
+.contact-signup-fail { background-color: #e4483a; }
+
+.invalid-input { border-color: red; }
+
+.validation-error { font-style: italic; font-weight: 400; color: red; padding-left: 20px; }
+
 @media (max-device-width: 768px) { .p-b-sm-50 { padding-bottom: 50px; } }
 
 /*# sourceMappingURL=main.css.map */
