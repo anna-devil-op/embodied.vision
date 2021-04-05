@@ -304,6 +304,7 @@ header {
         position: relative;
         border-radius: 10px;
         line-height: 1.1;
+        overflow: clip;
         @include transition-all;
         .project-category,
         .project-name,

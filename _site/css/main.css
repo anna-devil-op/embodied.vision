@@ -96,7 +96,7 @@ header .header-content .header-content-inner p { font-weight: 300; font-size: 20
 
 .portfolio-box { position: relative; display: block; margin: 0 0 20px 0; }
 
-.portfolio-box .portfolio-box-caption { min-height: 220px; color: white; background-color: #1f66ff; text-align: center; position: relative; border-radius: 10px; line-height: 1.1; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
+.portfolio-box .portfolio-box-caption { min-height: 220px; color: white; background-color: #1f66ff; text-align: center; position: relative; border-radius: 10px; line-height: 1.1; overflow: clip; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
 
 .portfolio-box .portfolio-box-caption .project-category, .portfolio-box .portfolio-box-caption .project-name, .portfolio-box .portfolio-box-caption .project-details { font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; padding: 10px 15px; }
 
