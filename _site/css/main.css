@@ -94,25 +94,23 @@ header .header-content .header-content-inner p { font-weight: 300; font-size: 20
 
 @media (min-width: 768px) { .section-heading { font-size: 38px; margin-bottom: 80px; } }
 
-.portfolio-box { position: relative; display: block; min-height: 220px; margin: 0 auto; margin-bottom: 20px; max-width: 100%; }
+.portfolio-box { position: relative; display: block; margin: 0 0 20px 0; }
 
-.portfolio-box .portfolio-box-caption { color: white; background-color: #1f66ff; opacity: 1; display: block; position: absolute; bottom: 0; text-align: center; width: 100%; height: 100%; border-radius: 10px; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
+.portfolio-box .portfolio-box-caption { min-height: 220px; color: white; background-color: #1f66ff; text-align: center; position: relative; border-radius: 10px; line-height: 1.1; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content { width: 100%; opacity: 1; text-align: center; position: absolute; }
+.portfolio-box .portfolio-box-caption .project-category, .portfolio-box .portfolio-box-caption .project-name, .portfolio-box .portfolio-box-caption .project-details { font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; padding: 10px 15px; }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-details { font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; padding: 10px 15px; }
+.portfolio-box .portfolio-box-caption .project-name { text-transform: lowercase; font-weight: 800; font-size: 24px; }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name { text-transform: lowercase; font-weight: 800; font-size: 24px; }
+.portfolio-box .portfolio-box-caption .project-category { font-weight: 600; font-size: 18px; }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category { font-weight: 600; font-size: 18px; }
+.portfolio-box .portfolio-box-caption .project-details { padding: 2px 15px; }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-details { padding: 2px 15px; }
+@media (min-width: 992px) { .portfolio-box .portfolio-box-caption { min-height: 280px; } .portfolio-box .portfolio-box-caption .project-name { font-size: 32px; } .portfolio-box .portfolio-box-caption .project-category { font-size: 24px; } .portfolio-box .portfolio-box-caption .project-details { font-size: 20px; } }
 
 .portfolio-box:hover { transform: translate(2px, 2px); transition: transform .5s; }
 
 .portfolio-box:hover .portfolio-box-caption { transition: box-shadow .5s; box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.2); }
-
-@media (min-width: 992px) { .portfolio-box { min-height: 280px; } .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name { font-size: 32px; } .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category { font-size: 24px; } .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-details { font-size: 20px; } }
 
 .about h2 { margin: 0 auto 20px; }
 
