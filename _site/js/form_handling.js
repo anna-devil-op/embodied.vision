@@ -42,16 +42,11 @@ const contactModel = (function() {
 
   let isSending = () => _isSending;
 
-  function delay(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
-  
   async function signup() {
     _isSending = true;
     _signupDetails = null;
     _signupError = false;
     let payload = {"email": _email, "name": _name, "interests": Array.from(_interests), "message": _message};
-    await delay(2000);
     m.request({
       method: "POST",
       url: "http://localhost:3030/contacts",
@@ -155,7 +150,7 @@ const emailComponent = (function () {
 const sendButtonComponent = (function () {
   function view() {
     if (contactModel.isSending()) {
-      return m('.spinner-container', [m('.wait-spinner')]);
+      return m('.wait-spinner');
     } else {
       return m('.text-center', [
         m('button.btn .btn-primary .btn-xl', {
