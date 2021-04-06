@@ -6,6 +6,7 @@ const contactModel = (function() {
   let _interests = new Set();
   let _signupDetails = null;
   let _signupError = false;
+  let _isSending = false;
 
   let _clear = () => {
     _email = '';
@@ -39,19 +40,29 @@ const contactModel = (function() {
 
   let getSignupDetails = () => _signupDetails;
 
+  let isSending = () => _isSending;
+
+  function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+  
   async function signup() {
+    _isSending = true;
     _signupDetails = null;
     _signupError = false;
     let payload = {"email": _email, "name": _name, "interests": Array.from(_interests), "message": _message};
+    await delay(2000);
     m.request({
       method: "POST",
       url: "http://localhost:3030/contacts",
       body: payload,
     }).then(value => {
       _signupDetails = payload;
+      _isSending = false;
       _clear();
     }, reason => {
       _signupError = true;
+      _isSending = false;
       console.log(`Failed to submit contact details to the server because: ${JSON.stringify(reason)}`);
     });
   }
@@ -70,6 +81,7 @@ const contactModel = (function() {
     signupSuccessful,
     getSignupDetails,
     signup,
+    isSending,
   }
 })();
 
@@ -140,6 +152,26 @@ const emailComponent = (function () {
 })();
 
 
+const sendButtonComponent = (function () {
+  function view() {
+    if (contactModel.isSending()) {
+      return m('.spinner-container', [m('.wait-spinner')]);
+    } else {
+      return m('.text-center', [
+        m('button.btn .btn-primary .btn-xl', {
+          disabled: !contactModel.canSubmit(),
+          onclick: contactModel.signup
+        }, 'Send'),
+      ]);
+    }
+  }
+
+  return {
+    view,
+  }
+})();
+
+
 m.mount(contact_app, {
   view: function() {
     return m('div', [
@@ -191,12 +223,7 @@ m.mount(contact_app, {
             ]),
           ]),
         ]),
-        m('.text-center', [
-          m('button.btn .btn-primary .btn-xl', {
-            disabled: !contactModel.canSubmit(),
-            onclick: contactModel.signup
-          }, 'Send'),
-        ]),
+        m(sendButtonComponent),
         m(signupComponent),
       ])
     ]);
