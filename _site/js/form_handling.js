@@ -49,7 +49,7 @@ const contactModel = (function() {
     let payload = {"email": _email, "name": _name, "interests": Array.from(_interests), "message": _message};
     m.request({
       method: "POST",
-      url: "http://localhost:3030/contacts",
+      url: "https://embodied.vision/contacts/",
       body: payload,
     }).then(value => {
       _signupDetails = payload;
