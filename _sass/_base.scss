@@ -252,14 +252,14 @@ header {
             max-width: 100%;
         }
         .header-content {
-            animation: slideInRight;
-            animation-duration: 1s;
             text-align: left;
             position: absolute;
             width: auto;
-            top: 10em;
+            margin-top: 10%;
             padding: 0;
             border-radius: 20px 0 0 20px;
+            animation: slideInRight;
+            animation-duration: 1.0s;
             .header-content-inner {
                 padding: 20px 0px 20px 100px;
                 h1 {
