@@ -38,8 +38,8 @@ module Jekyll
       CacheDigester.new(file_name: file_name, directory: '_sass').digest!
     end
 
-    def bust_js_cache(file_name)
-      CacheDigester.new(file_name: file_name, directory: 'js').digest!
+    def bust_cache(file_name)
+      CacheDigester.new(file_name: file_name).digest!
     end
   end
 end
