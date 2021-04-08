@@ -209,6 +209,7 @@ m.mount(contact_app, {
           ]),
         ]),
         m('.form-group', [
+          m('p', "Tick the following box if you'd like to be on my mailing list too. I'll let you know first about new workshops coming up and I'll never share your address with anyone. I send out emails about every couple of months so it won't be heavy on your inbox either."),
           m('label', [
             'Mailing List',
             m('.checkbox', [
