@@ -49,7 +49,7 @@ const contactModel = (function() {
     let payload = {"email": _email, "name": _name, "interests": Array.from(_interests), "message": _message};
     m.request({
       method: "POST",
-      url: "https://embodied.vision/contacts/",
+      url: "http://localhost:3030/contacts",
       body: payload,
     }).then(value => {
       _signupDetails = payload;
@@ -171,7 +171,7 @@ m.mount(contact_app, {
   view: function() {
     return m('div', [
       m('p', introduction),
-      m('fieldset.col-md-8 col-md-offset-2', [
+      m('fieldset.col-md-8 offset-md-2', [
         m('.form-group', [
           m('label', {for: '#contact_name'}, 'Name (required)'),
           m('input.form-control#contact_name[type="text"]', {

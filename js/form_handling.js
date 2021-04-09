@@ -175,7 +175,7 @@ m.mount(contact_app, {
   view: function() {
     return m('div', [
       m('p', introduction),
-      m('fieldset.col-md-8 col-md-offset-2', [
+      m('fieldset.col-md-8 offset-md-2', [
         m('.form-group', [
           m('label', {for: '#contact_name'}, 'Name (required)'),
           m('input.form-control#contact_name[type="text"]', {

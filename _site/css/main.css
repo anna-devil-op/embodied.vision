@@ -40,9 +40,13 @@ fieldset { padding: 10px; background-color: rgba(31, 102, 255, 0.2); }
 
 .form-group textarea { height: 10em; }
 
-.checkbox input[type="checkbox"] { margin-top: 0px; top: 50%; transform: translateY(-50%); }
+.form-group label { font-weight: 600; }
 
-.bg-primary { background-color: white; color: #222; }
+.checkbox input[type="checkbox"] { margin-right: 10px; }
+
+.checkbox label { font-weight: 400; }
+
+.primary-theme { background-color: white; color: #222; }
 
 .bg-dark { background-color: #222; color: white; }
 
@@ -177,7 +181,7 @@ html { height: 100%; }
 
 ul.portfolio-list { line-height: 1.5; list-style-type: none; }
 
-ul.portfolio-list li:before { content: "\00BB"; position: absolute; left: 20px; }
+ul.portfolio-list li:before { content: "\00BB"; position: absolute; transform: translateX(-200%); }
 
 .invisible { display: none; }
 
@@ -190,6 +194,12 @@ ul.portfolio-list li:before { content: "\00BB"; position: absolute; left: 20px; 
 .invalid-input { border-color: red; }
 
 .validation-error { font-style: italic; font-weight: 400; color: red; padding-left: 20px; }
+
+blockquote { background-color: rgba(31, 102, 255, 0.1); padding: 20px; }
+
+blockquote footer { display: block; font-size: 80%; color: #424242; }
+
+blockquote footer::before { content: "\2014 \00A0"; }
 
 @media (max-device-width: 768px) { .p-b-sm-50 { padding-bottom: 50px; } }
 

@@ -90,17 +90,21 @@ fieldset {
     textarea {
         height: 10em;
     }
+    label {
+        font-weight: 600;
+    }
 }
 
 .checkbox {
     input[type="checkbox"] {
-        margin-top: 0px;
-        top: 50%;
-        transform: translateY(-50%);
+        margin-right: 10px;
+    }
+    label {
+        font-weight: 400;
     }
 }
 
-.bg-primary {
+.primary-theme {
     background-color: $theme-background;
     color: $theme-dark;
 }
@@ -484,7 +488,7 @@ ul.portfolio-list {
     li:before {
         content: "\00BB";
         position: absolute;
-        left: 20px;
+        transform: translateX(-200%);
     }
 }
 
@@ -515,6 +519,20 @@ ul.portfolio-list {
     font-weight: 400;
     color: red;
     padding-left: 20px;
+}
+
+blockquote {
+    background-color: rgba($theme-secondary, 0.1);
+    padding: 20px;
+    footer {
+        display: block;
+        font-size: 80%; // back to default font-size
+        color: rgb(66, 66, 66);
+    
+        &::before {
+        content: "\2014 \00A0"; // em dash, nbsp
+        }
+    }
 }
 
 @media (max-device-width: 768px) {
