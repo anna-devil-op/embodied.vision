@@ -1,5 +1,6 @@
 html,
 body {
+    position: relative;
     height: 100%;
     width: 100%;
 }
@@ -109,15 +110,6 @@ fieldset {
     color: $theme-dark;
 }
 
-.bg-dark {
-    background-color: $theme-dark;
-    color: $theme-primary;
-}
-
-.text-faded {
-    color: rgba(white, .8);
-}
-
 section {
     padding: 40px 0;
     @media (min-width: 768px) {
@@ -128,24 +120,13 @@ section {
     }
 }
 
-aside {
-    padding: 50px 0;
-}
-
-.no-padding {
-    padding: 0;
-}
-
-// Navigation
-
 .navbar-default {
     background-color: $theme-secondary;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
-    .navbar-header .navbar-brand {
+    .navbar-brand {
         color: $theme-primary;
-        @include sans-serif-font;
         font-weight: 700;
         text-transform: lowercase;
         &:hover,
@@ -154,31 +135,26 @@ aside {
             background-color: lighten($theme-secondary, 10%);
         }
     }
-    .nav {
-        > li {
-            > a,
-            > a:focus {
-                text-transform: lowercase;
-                font-weight: 700;
-                font-size: 16px;
-                color: $theme-primary;
-                &:hover {
-                    background-color: lighten($theme-secondary, 10%);
-                    color: $theme-dark;
-                }
-            }
-            &.active {
-                > a,
-                > a:focus {
-                    color: $theme-dark !important;
-                    background-color: lighten($theme-secondary, 20%);
-                    &:hover {
-                        background-color: lighten($theme-secondary, 10%);
-                    }
-                }
+    .nav-link {
+        text-transform: lowercase;
+        font-weight: 700;
+        font-size: 16px;
+        color: $theme-primary;
+        &:hover {
+            background-color: lighten($theme-secondary, 10%);
+            color: $theme-dark;
+        }
+    }
+    &.active {
+        .nav-link {
+            color: $theme-dark !important;
+            background-color: lighten($theme-secondary, 20%);
+            &:hover {
+                background-color: lighten($theme-secondary, 10%);
             }
         }
     }
+
     @media (min-width: 768px) {
         background-color: rgba($theme-secondary, 0.5);
         &.affix {
@@ -188,13 +164,8 @@ aside {
                 color: $theme-primary;
                 font-size: 16px;
             }
-            .nav {
-                > li {
-                    > a,
-                    > a:focus {
-                        color: $theme-primary;
-                    }
-                }
+            .nav-link {
+                color: $theme-primary;
             }
         }
     }
@@ -358,10 +329,6 @@ header {
 }
 
 // Bootstrap Overrides
-.text-primary {
-    color: $theme-primary;
-}
-
 .no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
@@ -426,7 +393,6 @@ img::-moz-selection {
 
 body {
     -webkit-tap-highlight-color: $theme-dark;
-    height:100%;
 }
 
 html {

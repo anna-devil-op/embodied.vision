@@ -243,3 +243,18 @@ for (let infoButton of infoButtons) {
     }
   });
 }
+
+(function () {
+  'use strict'
+
+  $(window).on('scroll', function(event) {
+    var scrollValue = $(window).scrollTop();
+    if ( scrollValue > 100) {
+      $('.fixed-top').addClass('affix');
+    }else{
+      $('.fixed-top').removeClass('affix');
+    }
+  });
+
+  new WOW().init()
+})()

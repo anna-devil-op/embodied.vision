@@ -49,7 +49,7 @@ const contactModel = (function() {
     let payload = {"email": _email, "name": _name, "interests": Array.from(_interests), "message": _message};
     m.request({
       method: "POST",
-      url: "http://localhost:3030/contacts",
+      url: "https://embodied.vision/contacts/",
       body: payload,
     }).then(value => {
       _signupDetails = payload;
@@ -239,3 +239,18 @@ for (let infoButton of infoButtons) {
     }
   });
 }
+
+(function () {
+  'use strict'
+
+  $(window).on('scroll', function(event) {
+    var scrollValue = $(window).scrollTop();
+    if ( scrollValue > 100) {
+      $('.fixed-top').addClass('affix');
+    }else{
+      $('.fixed-top').removeClass('affix');
+    }
+  });
+
+  new WOW().init()
+})()

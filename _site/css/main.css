@@ -1,4 +1,4 @@
-html, body { height: 100%; width: 100%; }
+html, body { position: relative; height: 100%; width: 100%; }
 
 body { font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
@@ -48,35 +48,27 @@ fieldset { padding: 10px; background-color: rgba(31, 102, 255, 0.2); }
 
 .primary-theme { background-color: white; color: #222; }
 
-.bg-dark { background-color: #222; color: white; }
-
-.text-faded { color: rgba(255, 255, 255, 0.8); }
-
 section { padding: 40px 0; }
 
 @media (min-width: 768px) { section { padding: 80px 0; } }
 
 @media (min-width: 992px) { section { padding: 100px 0; } }
 
-aside { padding: 50px 0; }
-
-.no-padding { padding: 0; }
-
 .navbar-default { background-color: #1f66ff; border-color: rgba(34, 34, 34, 0.5); font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
 
-.navbar-default .navbar-header .navbar-brand { color: white; font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; text-transform: lowercase; }
+.navbar-default .navbar-brand { color: white; font-weight: 700; text-transform: lowercase; }
 
-.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus { color: #222; background-color: #5289ff; }
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus { color: #222; background-color: #5289ff; }
 
-.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus { text-transform: lowercase; font-weight: 700; font-size: 16px; color: white; }
+.navbar-default .nav-link { text-transform: lowercase; font-weight: 700; font-size: 16px; color: white; }
 
-.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus:hover { background-color: #5289ff; color: #222; }
+.navbar-default .nav-link:hover { background-color: #5289ff; color: #222; }
 
-.navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus { color: #222 !important; background-color: #85acff; }
+.navbar-default.active .nav-link { color: #222 !important; background-color: #85acff; }
 
-.navbar-default .nav > li.active > a:hover, .navbar-default .nav > li.active > a:focus:hover { background-color: #5289ff; }
+.navbar-default.active .nav-link:hover { background-color: #5289ff; }
 
-@media (min-width: 768px) { .navbar-default { background-color: rgba(31, 102, 255, 0.5); } .navbar-default.affix { background-color: #1f66ff; border-color: rgba(34, 34, 34, 0.5); } .navbar-default.affix .navbar-header .navbar-brand { color: white; font-size: 16px; } .navbar-default.affix .nav > li > a, .navbar-default.affix .nav > li > a:focus { color: white; } }
+@media (min-width: 768px) { .navbar-default { background-color: rgba(31, 102, 255, 0.5); } .navbar-default.affix { background-color: #1f66ff; border-color: rgba(34, 34, 34, 0.5); } .navbar-default.affix .navbar-header .navbar-brand { color: white; font-size: 16px; } .navbar-default.affix .nav-link { color: white; } }
 
 header { padding-top: 70px; position: relative; width: 100%; min-height: auto; text-align: center; color: white; background-image: url("../img/portrait_header_background"); background-size: cover; overflow-x: clip; overflow-y: visible; }
 
@@ -118,8 +110,6 @@ header .header-content .header-content-inner p { font-weight: 300; font-size: 20
 
 .about h2 { margin: 0 auto 20px; }
 
-.text-primary { color: white; }
-
 .no-gutter > [class*='col-'] { padding-right: 0; padding-left: 0; }
 
 .btn-default { color: #222; background-color: white; border-color: white; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
@@ -158,7 +148,7 @@ img::selection { color: white; background: transparent; }
 
 img::-moz-selection { color: white; background: transparent; }
 
-body { -webkit-tap-highlight-color: #222; height: 100%; }
+body { -webkit-tap-highlight-color: #222; }
 
 html { height: 100%; }
 
