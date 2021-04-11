@@ -123,32 +123,34 @@ section {
 .navbar-default {
     background-color: $theme-secondary;
     border-color: rgba($theme-dark, .5);
+    padding: 0.5rem 0 0.5rem 0;
     @include sans-serif-font;
     @include transition-all;
     .navbar-brand {
         color: $theme-primary;
         font-weight: 700;
         text-transform: lowercase;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         &:hover,
         &:focus {
             color: $theme-dark;
             background-color: lighten($theme-secondary, 10%);
         }
     }
-    .nav-link {
+    .navbar-nav .nav-link {
         text-transform: lowercase;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 1.25rem;
         color: $theme-primary;
         &:hover {
             background-color: lighten($theme-secondary, 10%);
             color: $theme-dark;
         }
-    }
-    &.active {
-        .nav-link {
+        &.active {
             color: $theme-dark !important;
-            background-color: lighten($theme-secondary, 20%);
+            background-color: lighten($theme-secondary, 10%);
             &:hover {
                 background-color: lighten($theme-secondary, 10%);
             }
@@ -157,6 +159,13 @@ section {
 
     @media (min-width: 768px) {
         background-color: rgba($theme-secondary, 0.5);
+        padding: 0;
+        .navbar-nav {
+            .nav-link {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
         &.affix {
             background-color: $theme-secondary;
             border-color: rgba($theme-dark, .5);
@@ -233,8 +242,6 @@ header {
             margin-top: 10%;
             padding: 0;
             border-radius: 20px 0 0 20px;
-            animation: slideInRight;
-            animation-duration: 1.0s;
             .header-content-inner {
                 padding: 20px 0px 20px 100px;
                 h1 {

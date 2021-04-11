@@ -175,7 +175,7 @@ m.mount(contact_app, {
   view: function() {
     return m('div', [
       m('p', introduction),
-      m('fieldset.col-md-8 offset-md-2', [
+      m('fieldset.col-lg-8 offset-lg-2', [
         m('.form-group', [
           m('label', {for: '#contact_name'}, 'Name (required)'),
           m('input.form-control#contact_name[type="text"]', {
@@ -249,9 +249,9 @@ for (let infoButton of infoButtons) {
 
   $(window).on('scroll', function(event) {
     var scrollValue = $(window).scrollTop();
-    if ( scrollValue > 100) {
+    if (scrollValue > 100) {
       $('.fixed-top').addClass('affix');
-    }else{
+    } else {
       $('.fixed-top').removeClass('affix');
     }
   });
