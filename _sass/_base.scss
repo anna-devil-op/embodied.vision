@@ -139,6 +139,8 @@ fieldset {
         font-weight: 700;
         font-size: 1rem;
         color: $theme-primary;
+        padding-left: 2rem;
+        padding-right: 2rem;
         &:hover {
             background-color: lighten($theme-secondary, 90%);
             color: $theme-dark;

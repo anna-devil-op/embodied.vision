@@ -56,7 +56,7 @@ fieldset { padding: 10px; background-color: rgba(31, 102, 255, 0.2); }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus { color: #222; background-color: white; }
 
-.navbar-default .navbar-nav .nav-link { text-transform: lowercase; font-weight: 700; font-size: 1rem; color: white; }
+.navbar-default .navbar-nav .nav-link { text-transform: lowercase; font-weight: 700; font-size: 1rem; color: white; padding-left: 2rem; padding-right: 2rem; }
 
 .navbar-default .navbar-nav .nav-link:hover { background-color: white; color: #222; }
 
