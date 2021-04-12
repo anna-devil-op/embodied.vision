@@ -14,5 +14,5 @@ RewriteRule ^(.*)$ https://embodied.vision/$1 [R,L]
 Header always set Strict-Transport-Security: "max-age=31536000; includeSubDomains; preload" env=HTTPS
 Header set X-Content-Type-Options: "nosniff"
 Header always set X-Frame-Options: "SAMEORIGIN"
-Header set Content-Security-Policy "default-src 'self' https:; style-src 'self' fonts.googleapis.com fonts.gstatic.com cdn.jsdelivr.net; script-src cdn.jsdelivr.net code.jquery.com; frame-ancestors 'self';"
+Header set Content-Security-Policy "default-src 'self' https:; style-src 'self' fonts.googleapis.com fonts.gstatic.com cdn.jsdelivr.net; script-src 'self' cdn.jsdelivr.net code.jquery.com; frame-ancestors 'self';"
 Header set X-XSS-Protection "1; mode=block"
