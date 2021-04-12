@@ -110,20 +110,15 @@ fieldset {
     color: $theme-dark;
 }
 
-section {
-    padding: 40px 0;
-    @media (min-width: 768px) {
-        padding: 80px 0;
-    }
-    @media (min-width: 992px) {
-        padding: 100px 0;
-    }
+.primary-background {
+    background-color: $theme-primary;
 }
 
 .navbar-default {
     background-color: $theme-secondary;
     border-color: rgba($theme-dark, .5);
     padding: 0.5rem 0 0.5rem 0;
+    border-bottom: 1px solid $theme-dark;
     @include sans-serif-font;
     @include transition-all;
     .navbar-brand {
@@ -136,7 +131,7 @@ section {
         &:hover,
         &:focus {
             color: $theme-dark;
-            background-color: lighten($theme-secondary, 10%);
+            background-color: lighten($theme-secondary, 80%);
         }
     }
     .navbar-nav .nav-link {
@@ -145,14 +140,14 @@ section {
         font-size: 1rem;
         color: $theme-primary;
         &:hover {
-            background-color: lighten($theme-secondary, 10%);
+            background-color: lighten($theme-secondary, 90%);
             color: $theme-dark;
         }
         &.active {
             color: $theme-dark !important;
-            background-color: lighten($theme-secondary, 10%);
+            background-color: lighten($theme-secondary, 80%);
             &:hover {
-                background-color: lighten($theme-secondary, 10%);
+                background-color: lighten($theme-secondary, 90%);
             }
         }
     }
@@ -168,7 +163,6 @@ section {
         }
         &.affix {
             background-color: $theme-secondary;
-            border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
                 font-size: 16px;
@@ -262,15 +256,21 @@ header {
 
 // Sections
 
+section {
+    padding: 50px 0;
+    @media (min-width: 992px) {
+        padding: 100px 0;
+    }
+}
+
 .section-heading {
     text-align: center;
+    margin: 0 auto 50px auto;
     font-weight: 800;
     font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 50px;
     @media (min-width: 768px) {
         font-size: 38px;
-        margin-bottom: 80px;
+        margin-bottom: 70px;
     }
 }
 
@@ -525,8 +525,12 @@ blockquote {
     margin-right: auto;
     -webkit-animation: spin 2s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
-  }
+}
   
+.contact-icon {
+    margin-top: 20px;
+}
+
   /* Safari */
   @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
