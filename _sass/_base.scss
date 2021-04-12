@@ -130,7 +130,7 @@ section {
         color: $theme-primary;
         font-weight: 700;
         text-transform: lowercase;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding-left: 1rem;
         padding-right: 1rem;
         &:hover,
@@ -142,7 +142,7 @@ section {
     .navbar-nav .nav-link {
         text-transform: lowercase;
         font-weight: 700;
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: $theme-primary;
         &:hover {
             background-color: lighten($theme-secondary, 10%);

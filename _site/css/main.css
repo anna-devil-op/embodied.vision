@@ -56,11 +56,11 @@ section { padding: 40px 0; }
 
 .navbar-default { background-color: #1f66ff; border-color: rgba(34, 34, 34, 0.5); padding: 0.5rem 0 0.5rem 0; font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
 
-.navbar-default .navbar-brand { color: white; font-weight: 700; text-transform: lowercase; font-size: 1.5rem; padding-left: 1rem; padding-right: 1rem; }
+.navbar-default .navbar-brand { color: white; font-weight: 700; text-transform: lowercase; font-size: 1.2rem; padding-left: 1rem; padding-right: 1rem; }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus { color: #222; background-color: #5289ff; }
 
-.navbar-default .navbar-nav .nav-link { text-transform: lowercase; font-weight: 700; font-size: 1.25rem; color: white; }
+.navbar-default .navbar-nav .nav-link { text-transform: lowercase; font-weight: 700; font-size: 1rem; color: white; }
 
 .navbar-default .navbar-nav .nav-link:hover { background-color: #5289ff; color: #222; }
 
