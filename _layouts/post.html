@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top" data-spy="scroll" data-target="#navbar" data-offset="10">
+  {% include nav.html %}
+  {% include header.html %}
+
+  <h1>{{ page.title }}</h1>
+  <section>
+    {{ content }}
+  </section>
+  <div class="parallax_image"></div>
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+
+</html>

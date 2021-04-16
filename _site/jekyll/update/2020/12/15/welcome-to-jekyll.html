@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+
+<head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,41 +12,54 @@
     <title>Embodied Vision</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- Custom Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css?1d46e2769a6bfd960ce8c41b7c169cd6">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="/css/main.css?e46a5ae367452beb7ee700402fc0af8c">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 </head>
-<body><header>
+
+
+<body id="page-top" data-spy="scroll" data-target="#navbar" data-offset="10">
+  <div id="navbar">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-default fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://embodied.vision#page-top">Embodied Vision</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-nav collapse navbar-collapse justify-content-end" id="navbarNav">
+            <a class="nav-link" href="#vision">Vision</a>
+            <a class="nav-link" href="#portfolio">Classes</a>
+            <a class="nav-link" href="#writing">Writing</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+    </nav>
+</div>
+
+  <header>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
-                <img class="header-image" src="img/header_image"/>
+            <div class="col-lg-6">
+                <img class="header-image" src="/img/header_image" alt="A dancing girl embodying movement"/>
             </div>
-            <div class="col-md-6">
-                <div class="header-content">
+            <div class="col-lg-6">
+                <div class="header-content wow slideInRight" data-wow-delay=".4s">
                     <a href="#vision" class="inert page-scroll">
                         <div class="header-content-inner">
-                            <h1>embodied&nbsp;vision</h1>
+                            <h1>embodied vision</h1>
                             <h2>awaken your visual sense</h2>
                             <p>Explore your experience of seeing in a gentle, embodied way with Anna&nbsp;Bambridge</p>
                         </div>
@@ -54,18 +69,10 @@
         </div>
     </div>
 </header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Welcome to Jekyll!</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2020-12-15T11:49:06+00:00" itemprop="datePublished">Dec 15, 2020
-      </time></p>
-  </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <h1>Welcome to Jekyll!</h1>
+  <section>
     <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
@@ -85,15 +92,23 @@
 <p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
 
 
-  </div><a class="u-url" href="/jekyll/update/2020/12/15/welcome-to-jekyll.html" hidden></a>
-</article>
-
-      </div>
-    </main><footer class="bg-light text-center text-lg-start">
+  </section>
+  <div class="parallax_image"></div>
+  <footer class="bg-light text-center text-lg-start">
     <div class="text-center p-3">
         © 2021 Copyright: Anna Bambridge
     </div>
 </footer>
+
+  <!-- Plugin JavaScript -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/mithril.min.js"></script>
+
+<!-- <script src="js/creative.js"></script> -->
+<script src="js/custom.js?3e1899fceb2d1e51d7f414d20f8afe21"></script>
+
 </body>
 
 </html>

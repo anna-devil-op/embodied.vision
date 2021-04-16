@@ -2,9 +2,17 @@
     <div class="container-fluid">
         <h2 class="section-heading">Writing</h2>
         <div class="row">
-            <div class="col-xs-12 col-md-10 offset-md-1">
-                <p class="text-center">To come...</p>
+            {% for post in site.posts %}
+            <div class="col-md-10 offset-md-1">
+                <a href="{{ post.url }}" class="writing-post-box inert wow fadeIn" data-wow-delay=".1s">
+                    <div class="writing-post-box-caption">
+                        <div class="writing-post-title">
+                            {{ post.title }}
+                        </div>
+                    </div>
+                </a>
             </div>
+            {% endfor %}
         </div>
     </div>
 </section>

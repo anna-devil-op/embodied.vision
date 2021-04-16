@@ -331,6 +331,44 @@ section {
     }
 }
 
+.writing-post-box {
+    position: relative;
+    display: block;
+    margin: 0 0 20px 0;
+    .writing-post-box-caption {
+        min-height: 220px;
+        color: $theme-primary;
+        background-color: $theme-secondary;
+        text-align: center;
+        position: relative;
+        border-radius: 10px;
+        line-height: 1.1;
+        overflow: clip;
+        @include transition-all;
+        .writing-post-title {
+            @include sans-serif-font;
+            padding: 10px 15px;
+            text-transform: lowercase;
+            font-weight: 800;
+            font-size: 24px;
+        }
+        @media (min-width: 992px) {
+            min-height: 280px;
+            .writing-post-title {
+                font-size: 32px;
+            }
+        }
+    }
+    &:hover {
+        transform: translate(2px,2px);
+        transition: transform .5s;
+        .writing-post-box-caption {
+            transition: box-shadow .5s;
+            box-shadow: -2px -2px 10px rgba(0,0,0,.2);
+        }
+    }
+}
+
 .about {
     h2 {
         margin: 0 auto 20px;
