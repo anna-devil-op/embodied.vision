@@ -8,6 +8,7 @@ const contactModel = (function() {
   let _name = '';
   let _message = '';
   let _interests = new Set();
+  let _addToMailingList = false;
   let _signupDetails = null;
   let _signupError = false;
   let _isSending = false;
@@ -18,21 +19,29 @@ const contactModel = (function() {
     _name = '';
     _message = '';
     _interests.clear();
+    _addToMailingList = false;
   }
 
-  let setEmail = (email) => { _email = email; _isValidEmail = (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(_email)); }
+  let setEmail = (email) => {
+    _email = email;
+    _isValidEmail = (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(_email));
+  }
 
   let isValidEmail = () => _isValidEmail;
 
   let getEmail = () => _email;
 
-  let setName = (name) => { _name = name }
+  let setName = (name) => _name = name
 
   let getName = () => _name;
 
   let hasInterest = (interest) => _interests.has(interest);
 
   let setInterested = (interest, interested) => { (interested) ? _interests.add(interest) : _interests.delete(interest) }
+
+  let setAddToMailingList = (add) => _addToMailingList = add
+
+  let isAddToMailingList = () => _addToMailingList
 
   let setMessage = (message) => { _message = message }
 
@@ -46,11 +55,21 @@ const contactModel = (function() {
 
   let isSending = () => _isSending;
 
+  let getPayload = () => {
+    return {
+      "email": _email,
+      "name": _name,
+      "message": _message,
+      "interests": Array.from(_interests),
+      "addToMailingList": _addToMailingList
+    }
+  }
+
   async function signup() {
     _isSending = true;
     _signupDetails = null;
     _signupError = false;
-    let payload = {"email": _email, "name": _name, "interests": Array.from(_interests), "message": _message};
+    let payload = getPayload()
     m.request({
       method: "POST",
       url: "{{ site.contacts_url }}",
@@ -76,6 +95,8 @@ const contactModel = (function() {
     setInterested,
     getMessage,
     setMessage,
+    setAddToMailingList,
+    isAddToMailingList,
     canSubmit,
     signupSuccessful,
     getSignupDetails,
@@ -90,8 +111,6 @@ const interests = [
   'Somatic Seeing',
   'One to One Sessions',
 ]
-
-const MAILING_LIST = 'Mailing list';
 
 const contact_app = document.getElementById('contact_app');
 const introduction = contact_app.textContent;
@@ -215,8 +234,8 @@ m.mount(contact_app, {
             m('.checkbox', [
               m('label', [
                 m('input[type="checkbox"]', {
-                  checked: contactModel.hasInterest(MAILING_LIST),
-                  oninput: e => contactModel.setInterested(MAILING_LIST, e.target.checked),
+                  checked: contactModel.isAddToMailingList(),
+                  oninput: e => contactModel.setAddToMailingList(e.target.checked),
                 }),
                 'I would like to be on your mailing list',
               ]),
