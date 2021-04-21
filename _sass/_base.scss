@@ -257,7 +257,7 @@ fieldset {
     }
 }
 
-// Post Header
+// Posts
 
 .post-header {
     padding-top: 70px;
@@ -286,6 +286,10 @@ fieldset {
     @media (min-width: 992px) {
         font-size: 48px;
     }
+}
+
+.post-content {
+    padding: 50px 0;
 }
 
 // Sections
