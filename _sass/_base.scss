@@ -178,7 +178,7 @@ fieldset {
 
 // Homepage Header
 
-header {
+.main-header {
     padding-top: 70px;
     position: relative;
     width: 100%;
@@ -189,69 +189,70 @@ header {
     background-size: cover;
     overflow-x: clip;
     overflow-y: visible;
-    .header-image {
-        width: 100%;
-        height: auto;
-    }
-    .header-content {
-        position: relative;
-        padding: 0;
-        width: 100%;
-        background-color: rgba($theme-secondary, .7);
-        border-radius: 10px 10px 0 0;
-        .header-content-inner {
-            padding: 10px 10px 10px 10px;
-            h1 {
-                font-size: 32px;
-                font-weight: 700;
-                margin-top: 0;
-                margin-bottom: 0;
-            }
-            h2 {
-                font-size: 26px;
-                font-weight: 500;
-                margin-top: 0;
-                margin-bottom: 0;
-            }
-            p {
-                font-weight: 300;
-                font-size: 20px;
-                margin-top: 10px;
-                margin-bottom: 5px;
-                text-align: center;
-            }
-        }
-    }
     @media (min-width: 992px) {
         min-height: 100%;
         max-height: 100%;
         background-image: url("../img/parallax_image");
-        .header-image {
-            width: auto;
-            max-height: 100%;
-            max-width: 100%;
+     }
+}
+
+.main-header-image {
+    width: 100%;
+    height: auto;
+    @media (min-width: 992px) {
+        width: auto;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+.main-header-content {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    background-color: rgba($theme-secondary, .7);
+    border-radius: 10px 10px 0 0;
+    @media (min-width: 992px) {
+        text-align: left;
+        position: absolute;
+        width: auto;
+        margin-top: 10%;
+        padding: 0;
+        border-radius: 20px 0 0 20px;
+    }
+}
+.main-header-content-inner {
+    padding: 10px 10px 10px 10px;
+    h1 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 26px;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    p {
+        font-weight: 300;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    @media (min-width: 992px) {
+        padding: 20px 0px 20px 100px;
+        h1 {
+            font-size: 64px;
         }
-        .header-content {
+        h2 {
+            font-size: 40px;
+        }
+        p {
             text-align: left;
-            position: absolute;
-            width: auto;
-            margin-top: 10%;
-            padding: 0;
-            border-radius: 20px 0 0 20px;
-            .header-content-inner {
-                padding: 20px 0px 20px 100px;
-                h1 {
-                    font-size: 64px;
-                }
-                h2 {
-                    font-size: 40px;
-                }
-                p {
-                    text-align: left;
-                    font-size: 28px;
-                    margin: 20px 40px 10px 0px;
-                }
-            }
+            font-size: 28px;
+            margin: 20px 40px 10px 0px;
         }
     }
 }
