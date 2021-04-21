@@ -257,6 +257,37 @@ fieldset {
     }
 }
 
+// Post Header
+
+.post-header {
+    padding-top: 70px;
+    width: 100%;
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/parallax_image");
+    background-size: cover;
+}
+
+.post-header-content {
+    position: relative;
+    text-align: center;
+    color: $theme-primary;
+    background-color: rgba($theme-secondary, .7);
+    border-radius: 20px;
+    @media (min-width: 992px) {
+        padding: 20px 50px 20px 50px;
+    }
+}
+
+.post-title {
+    font-size: 32px;
+    font-weight: 700;
+    @media (min-width: 992px) {
+        font-size: 48px;
+    }
+}
+
 // Sections
 
 section {
