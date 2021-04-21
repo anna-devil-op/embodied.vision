@@ -94,9 +94,7 @@ fieldset { padding: 10px; background-color: rgba(31, 102, 255, 0.2); }
 
 @media (min-width: 992px) { .post-header-content { padding: 20px 50px 20px 50px; } }
 
-.post-title { font-size: 32px; font-weight: 700; }
-
-@media (min-width: 992px) { .post-title { font-size: 48px; } }
+.post-title { font-size: 3rem; font-weight: 700; }
 
 .post-content { padding: 50px 0; }
 
@@ -128,15 +126,21 @@ section { padding: 50px 0; }
 
 .writing-post-box { position: relative; display: block; margin: 0 0 20px 0; }
 
-.writing-post-box .writing-post-box-caption { min-height: 220px; color: white; background-color: #1f66ff; text-align: center; position: relative; border-radius: 10px; line-height: 1.1; overflow: clip; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
-
-.writing-post-box .writing-post-box-caption .writing-post-title { font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; padding: 10px 15px; text-transform: lowercase; font-weight: 800; font-size: 24px; }
-
-@media (min-width: 992px) { .writing-post-box .writing-post-box-caption { min-height: 280px; } .writing-post-box .writing-post-box-caption .writing-post-title { font-size: 32px; } }
-
 .writing-post-box:hover { transform: translate(2px, 2px); transition: transform .5s; }
 
 .writing-post-box:hover .writing-post-box-caption { transition: box-shadow .5s; box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.2); }
+
+.writing-post-box-caption { min-height: 220px; color: white; background-color: #1f66ff; text-align: center; position: relative; border-radius: 10px; line-height: 1.1; overflow: clip; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
+
+@media (min-width: 992px) { .writing-post-box-caption { min-height: 280px; } }
+
+.writing-post-title { padding: 1rem 1.5rem; font-weight: 800; font-size: 24px; border-bottom: 1px solid white; }
+
+@media (min-width: 992px) { .writing-post-title { font-size: 28px; } }
+
+.writing-post-excerpt { padding: 1rem 1.5rem; font-size: 20px; }
+
+@media (min-width: 992px) { .writing-post-excerpt { font-size: 24px; } }
 
 .about h2 { margin: 0 auto 20px; }
 
