@@ -66,21 +66,37 @@ fieldset { padding: 10px; background-color: rgba(31, 102, 255, 0.2); }
 
 @media (min-width: 768px) { .navbar-default { background-color: rgba(31, 102, 255, 0.5); padding: 0; } .navbar-default .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; } .navbar-default.affix { background-color: #1f66ff; } .navbar-default.affix .navbar-header .navbar-brand { color: white; font-size: 16px; } .navbar-default.affix .nav-link { color: white; } }
 
-header { padding-top: 70px; position: relative; width: 100%; min-height: auto; text-align: center; color: white; background-image: url("../img/portrait_header_background"); background-size: cover; overflow-x: clip; overflow-y: visible; }
+.main-header { padding-top: 70px; position: relative; width: 100%; min-height: auto; text-align: center; color: white; background-image: url("../img/portrait_header_background"); background-size: cover; overflow-x: clip; overflow-y: visible; }
 
-header .header-image { width: 100%; height: auto; }
+@media (min-width: 992px) { .main-header { min-height: 100%; max-height: 100%; background-image: url("../img/parallax_image"); } }
 
-header .header-content { position: relative; padding: 0; width: 100%; background-color: rgba(31, 102, 255, 0.7); border-radius: 10px 10px 0 0; }
+.main-header-image { width: 100%; height: auto; }
 
-header .header-content .header-content-inner { padding: 10px 10px 10px 10px; }
+@media (min-width: 992px) { .main-header-image { width: auto; max-height: 100%; max-width: 100%; } }
 
-header .header-content .header-content-inner h1 { font-size: 32px; font-weight: 700; margin-top: 0; margin-bottom: 0; }
+.main-header-content { position: relative; padding: 0; width: 100%; background-color: rgba(31, 102, 255, 0.7); border-radius: 10px 10px 0 0; }
 
-header .header-content .header-content-inner h2 { font-size: 26px; font-weight: 500; margin-top: 0; margin-bottom: 0; }
+@media (min-width: 992px) { .main-header-content { text-align: left; position: absolute; width: auto; margin-top: 10%; padding: 0; border-radius: 20px 0 0 20px; } }
 
-header .header-content .header-content-inner p { font-weight: 300; font-size: 20px; margin-top: 10px; margin-bottom: 5px; text-align: center; }
+.main-header-content-inner { padding: 10px 10px 10px 10px; }
 
-@media (min-width: 992px) { header { min-height: 100%; max-height: 100%; background-image: url("../img/parallax_image"); } header .header-image { width: auto; max-height: 100%; max-width: 100%; } header .header-content { text-align: left; position: absolute; width: auto; margin-top: 10%; padding: 0; border-radius: 20px 0 0 20px; } header .header-content .header-content-inner { padding: 20px 0px 20px 100px; } header .header-content .header-content-inner h1 { font-size: 64px; } header .header-content .header-content-inner h2 { font-size: 40px; } header .header-content .header-content-inner p { text-align: left; font-size: 28px; margin: 20px 40px 10px 0px; } }
+.main-header-content-inner h1 { font-size: 32px; font-weight: 700; margin-top: 0; margin-bottom: 0; }
+
+.main-header-content-inner h2 { font-size: 26px; font-weight: 500; margin-top: 0; margin-bottom: 0; }
+
+.main-header-content-inner p { font-weight: 300; font-size: 20px; margin-top: 10px; margin-bottom: 5px; text-align: center; }
+
+@media (min-width: 992px) { .main-header-content-inner { padding: 20px 0px 20px 100px; } .main-header-content-inner h1 { font-size: 64px; } .main-header-content-inner h2 { font-size: 40px; } .main-header-content-inner p { text-align: left; font-size: 28px; margin: 20px 40px 10px 0px; } }
+
+.post-header { padding-top: 70px; width: 100%; min-height: 200px; background-position: center; background-repeat: no-repeat; background-image: url("../img/parallax_image"); background-size: cover; }
+
+.post-header-content { position: relative; text-align: center; color: white; background-color: rgba(31, 102, 255, 0.7); border-radius: 20px; }
+
+@media (min-width: 992px) { .post-header-content { padding: 20px 50px 20px 50px; } }
+
+.post-title { font-size: 32px; font-weight: 700; }
+
+@media (min-width: 992px) { .post-title { font-size: 48px; } }
 
 section { padding: 50px 0; }
 
