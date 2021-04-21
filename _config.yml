@@ -21,10 +21,8 @@
 title: Embodied Vision
 email: anna@embodied.vision
 mobile_phone: +44(0)7866813330
-description: >- # this means to ignore newlines until "baseurl:"
+description: >
   Somatic seeing and holistic vision.
-baseurl: "/"
-url: "https://embodied.vision"
 host: 127.0.0.1
 
 # Build settings
