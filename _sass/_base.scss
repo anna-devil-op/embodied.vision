@@ -275,6 +275,7 @@ fieldset {
     color: $theme-primary;
     background-color: rgba($theme-secondary, .7);
     border-radius: 20px;
+    margin-bottom: 2rem;
     @media (min-width: 992px) {
         padding: 20px 50px 20px 50px;
     }
@@ -378,7 +379,7 @@ section {
     }
 }
 
-.writing-post-box-caption {
+.writing-post-box-content {
     min-height: 220px;
     color: $theme-primary;
     background-color: $theme-secondary;
@@ -403,12 +404,24 @@ section {
     }
 }
 
-.writing-post-excerpt {
+.writing-post-abstract {
     padding: 1rem 1.5rem;
     font-size: 20px;
+    text-align: justify;
     @media (min-width: 992px) {
         font-size:24px;
     }
+}
+
+.writing-post-image {
+    position: relative;
+    border-radius: 10px;
+    width: 95%;
+    left: 5%;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+
 }
 
 .about {

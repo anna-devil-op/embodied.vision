@@ -5,12 +5,19 @@
             {% for post in site.posts %}
             <div class="col-md-10 offset-md-1">
                 <a href="{{ post.url }}" class="writing-post-box inert wow fadeIn" data-wow-delay=".1s">
-                    <div class="writing-post-box-caption">
+                    <div class="writing-post-box-content">
                         <div class="writing-post-title">
                             {{ post.title }}
                         </div>
-                        <div class="writing-post-excerpt">
-                            {{ post.excerpt }}
+                        <div class="row">
+                            <div class="col-4">
+                                <img class="writing-post-image" src="{{ post.image }}" alt="{{ post.image-alt }}">
+                            </div>
+                            <div class="col-8">
+                                <div class="writing-post-abstract">
+                                    {{ post.abstract }}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </a>

@@ -2,15 +2,15 @@
 layout: post
 title:  "Healing Vision Without Spectacles, Contact Lenses or Refractive Surgery: A Personal Journey"
 date:   2018-06-18
-excerpt_separator: <!-- exxx -->
-image: personal_healing_journey.jpg
+image: /img/personal_healing_journey
+image-alt: Life images containing various levels of blur
+abstract: Whenever I try to speak about my vision it becomes difficult, partly because my vision is constantly moving, shifting and changing, so the act of description feels like pinning down and killing a butterfly and partly because of the multitude of metaphors in the visual vocabulary. What is your focus? What is your perspective? How is your sense of depth? Are things colourful for you? All of these are valid questions about eyesight but they also mean more. The discussions these questions can provoke entail answers about relationships, direction, motivation, awareness, and all of life. When I speak about my vision, I am speaking about my life.
 ---
-![Life images containing various levels of blur](/img/actuals/personal_healing_journey.jpg)
+![{{ page.image-alt }}]({{ page.image }})
 
 # My Journey
 
 Whenever I try to speak about my vision it becomes difficult, partly because my vision is constantly moving, shifting and changing, so the act of description feels like pinning down and killing a butterfly and partly because of the multitude of metaphors in the visual vocabulary. What is your focus? What is your perspective? How is your sense of depth? Are things colourful for you? All of these are valid questions about eyesight but they also mean more. The discussions these questions can provoke entail answers about relationships, direction, motivation, awareness, and all of life. When I speak about my vision, I am speaking about my life.
-<!-- exxx -->
 
 I was first given glasses for vision difficulties (myopia and astigmatism) when I was 3 years old. The strength of the glasses I wore increased until I was 22 and my prescription was over –10 dioptres. Glasses, contact lenses, and refractive surgery bend, twist, narrow, expand and refocus light altering the way that it enters a person. There is a change in the focus and the perceived size and location of objects when glasses are worn. There is also a change in perspective. This is illustrated by the common experience of difficulty walking up and down stairs soon after a new prescription for glasses is worn.
 

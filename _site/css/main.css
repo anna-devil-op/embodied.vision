@@ -90,7 +90,7 @@ fieldset { padding: 10px; background-color: rgba(31, 102, 255, 0.2); }
 
 .post-header { padding-top: 70px; width: 100%; min-height: 200px; background-position: center; background-repeat: no-repeat; background-image: url("../img/parallax_image"); background-size: cover; }
 
-.post-header-content { position: relative; text-align: center; color: white; background-color: rgba(31, 102, 255, 0.7); border-radius: 20px; }
+.post-header-content { position: relative; text-align: center; color: white; background-color: rgba(31, 102, 255, 0.7); border-radius: 20px; margin-bottom: 2rem; }
 
 @media (min-width: 992px) { .post-header-content { padding: 20px 50px 20px 50px; } }
 
@@ -130,17 +130,19 @@ section { padding: 50px 0; }
 
 .writing-post-box:hover .writing-post-box-caption { transition: box-shadow .5s; box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.2); }
 
-.writing-post-box-caption { min-height: 220px; color: white; background-color: #1f66ff; text-align: center; position: relative; border-radius: 10px; line-height: 1.1; overflow: clip; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
+.writing-post-box-content { min-height: 220px; color: white; background-color: #1f66ff; text-align: center; position: relative; border-radius: 10px; line-height: 1.1; overflow: clip; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
 
-@media (min-width: 992px) { .writing-post-box-caption { min-height: 280px; } }
+@media (min-width: 992px) { .writing-post-box-content { min-height: 280px; } }
 
 .writing-post-title { padding: 1rem 1.5rem; font-weight: 800; font-size: 24px; border-bottom: 1px solid white; }
 
 @media (min-width: 992px) { .writing-post-title { font-size: 28px; } }
 
-.writing-post-excerpt { padding: 1rem 1.5rem; font-size: 20px; }
+.writing-post-abstract { padding: 1rem 1.5rem; font-size: 20px; text-align: justify; }
 
-@media (min-width: 992px) { .writing-post-excerpt { font-size: 24px; } }
+@media (min-width: 992px) { .writing-post-abstract { font-size: 24px; } }
+
+.writing-post-image { position: relative; border-radius: 10px; width: 95%; left: 5%; height: auto; top: 50%; transform: translateY(-50%); }
 
 .about h2 { margin: 0 auto 20px; }
 
