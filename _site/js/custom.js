@@ -1,8 +1,3 @@
-
----
-# for Jekyll parsing
----
-
 (function () {
   const contactApp = document.getElementById('contact_app')
   if (!contactApp) {
@@ -77,9 +72,10 @@
       _signupDetails = null
       _signupError = false
       const payload = getPayload()
+      const contactsURL = $('#contactsURL').text()
       m.request({
         method: 'POST',
-        url: '{{ site.contacts_url }}',
+        url: contactsURL,
         body: payload
       }).then(value => {
         _signupDetails = payload
