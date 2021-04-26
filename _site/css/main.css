@@ -142,7 +142,9 @@ section { padding: 50px 0; }
 
 @media (min-width: 992px) { .writing-post-abstract { font-size: 24px; } }
 
-.writing-post-image { position: relative; border-radius: 10px; width: 95%; left: 5%; height: auto; top: 50%; transform: translateY(-50%); }
+.writing-post-image { position: relative; width: 100%; }
+
+@media (min-width: 992px) { .writing-post-image { border-radius: 10px; max-width: 90%; max-height: 90%; left: 5%; top: 50%; transform: translateY(-50%); } }
 
 .about h2 { margin: 0 auto 20px; }
 

@@ -409,19 +409,21 @@ section {
     font-size: 20px;
     text-align: justify;
     @media (min-width: 992px) {
-        font-size:24px;
+        font-size: 24px;
     }
 }
 
 .writing-post-image {
     position: relative;
-    border-radius: 10px;
-    width: 95%;
-    left: 5%;
-    height: auto;
-    top: 50%;
-    transform: translateY(-50%);
-
+    width: 100%;
+    @media (min-width: 992px) {
+        border-radius: 10px;
+        max-width: 90%;
+        max-height: 90%;
+        left: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 .about {
