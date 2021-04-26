@@ -130,7 +130,7 @@ section { padding: 50px 0; }
 
 .writing-post-box:hover .writing-post-box-caption { transition: box-shadow .5s; box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.2); }
 
-.writing-post-box-content { min-height: 220px; color: white; background-color: #1f66ff; text-align: center; position: relative; border-radius: 10px; line-height: 1.1; overflow: clip; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
+.writing-post-box-content { min-height: 220px; color: white; background-color: #1f66ff; text-align: center; position: relative; border-radius: 10px; border: 1px solid #1f66ff; line-height: 1.1; overflow: clip; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
 
 @media (min-width: 992px) { .writing-post-box-content { min-height: 280px; } }
 
@@ -138,17 +138,15 @@ section { padding: 50px 0; }
 
 @media (min-width: 992px) { .writing-post-title { font-size: 28px; } }
 
-.writing-post-abstract { padding: 1rem 1.5rem; font-size: 20px; text-align: justify; }
+.writing-post-abstract { padding: 1rem 1.5rem; font-size: 20px; text-align: justify; background-color: white; color: #222; }
 
 @media (min-width: 992px) { .writing-post-abstract { font-size: 24px; } }
 
 .writing-post-image { position: relative; width: 100%; }
 
-@media (min-width: 992px) { .writing-post-image { border-radius: 10px; max-width: 90%; max-height: 90%; left: 5%; top: 50%; transform: translateY(-50%); } }
+@media (min-width: 992px) { .writing-post-image { border-radius: 10px; max-width: 90%; max-height: 90%; top: 50%; transform: translateY(-50%); } }
 
 .about h2 { margin: 0 auto 20px; }
-
-.no-gutter > [class*='col-'] { padding-right: 0; padding-left: 0; }
 
 .btn-default { color: #222; background-color: white; border-color: white; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
 
@@ -234,6 +232,8 @@ blockquote footer::before { content: "\2014 \00A0"; }
 .wait-spinner { text-align: center; border: 5px solid #f3f3f3; border-radius: 50%; border-top: 5px solid #3498db; width: 60px; height: 60px; margin-left: auto; margin-right: auto; -webkit-animation: spin 2s linear infinite; /* Safari */ animation: spin 2s linear infinite; }
 
 .contact-icon { margin-top: 20px; }
+
+.no-padding-right { padding-right: 0; }
 
 /* Safari */
 @-webkit-keyframes spin { 0% { -webkit-transform: rotate(0deg); }

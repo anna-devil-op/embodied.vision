@@ -386,6 +386,7 @@ section {
     text-align: center;
     position: relative;
     border-radius: 10px;
+    border: 1px solid $theme-secondary;
     line-height: 1.1;
     overflow: clip;
     @include transition-all;
@@ -408,6 +409,8 @@ section {
     padding: 1rem 1.5rem;
     font-size: 20px;
     text-align: justify;
+    background-color: $theme-primary;
+    color: $theme-dark;
     @media (min-width: 992px) {
         font-size: 24px;
     }
@@ -420,7 +423,6 @@ section {
         border-radius: 10px;
         max-width: 90%;
         max-height: 90%;
-        left: 5%;
         top: 50%;
         transform: translateY(-50%);
     }
@@ -430,12 +432,6 @@ section {
     h2 {
         margin: 0 auto 20px;
     }
-}
-
-// Bootstrap Overrides
-.no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
 }
 
 // Button Styles
@@ -626,6 +622,10 @@ blockquote {
   
 .contact-icon {
     margin-top: 20px;
+}
+
+.no-padding-right {
+    padding-right: 0;
 }
 
   /* Safari */
