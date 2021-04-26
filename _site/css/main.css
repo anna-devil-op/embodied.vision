@@ -102,7 +102,7 @@ fieldset { padding: 10px; background-color: rgba(31, 102, 255, 0.2); }
 
 .post-content { padding: 50px 0; }
 
-.post-content img { width: 100%; }
+.post-content img { width: 100%; max-width: max-content; }
 
 section { padding: 50px 0; }
 
