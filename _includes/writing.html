@@ -2,20 +2,20 @@
     <div class="container-fluid">
         <h2 class="section-heading">Writing</h2>
         <div class="row">
-            {% for post in site.posts %}
+            {% for doc in site.writing %}
             <div class="col-md-10 offset-md-1">
-                <a href="{{ post.url }}" class="writing-post-box inert wow fadeIn" data-wow-delay=".1s">
+                <a href="{{ doc.url }}" class="writing-post-box inert wow fadeIn" data-wow-delay=".1s">
                     <div class="writing-post-box-content">
                         <div class="writing-post-title">
-                            {{ post.title }}
+                            {{ doc.title }}
                         </div>
                         <div class="row">
                             <div class="col-lg-4">
-                                <img class="writing-post-image" src="{{ post.image }}" alt="{{ post.image-alt }}">
+                                <img class="writing-post-image" src="{{ doc.image }}" alt="{{ doc.image-alt }}">
                             </div>
                             <div class="col-lg-8">
                                 <div class="writing-post-abstract">
-                                    {{ post.abstract }}
+                                    {{ doc.abstract }}
                                 </div>
                             </div>
                         </div>

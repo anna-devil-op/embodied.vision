@@ -21,3 +21,4 @@ deployment:
     - /bin/cp -R _site/fonts $DEPLOYPATH
     - /bin/cp -R _site/img $DEPLOYPATH
     - /bin/cp -R _site/js $DEPLOYPATH
+    - /bin/cp -R _site/writing $DEPLOYPATH

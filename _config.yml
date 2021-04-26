@@ -31,7 +31,11 @@ plugins:
   - jekyll-feed
 saas:
   style: compressed
-
+collections:
+  writing:
+    output: true
+    order:
+      - healing-vision-without-spectacles.md
 defaults:
   -
     scope:
