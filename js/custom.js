@@ -1,4 +1,8 @@
-(function () {
+// helps with code validation when not using modules
+const $ = window.$
+const m = window.m
+
+;(function () {
   const contactApp = document.getElementById('contact_app')
   if (!contactApp) {
     return
@@ -281,6 +285,6 @@
   })
 
   if ('WOW' in window) {
-    new WOW().init()
+    new window.WOW().init()
   }
 })()
