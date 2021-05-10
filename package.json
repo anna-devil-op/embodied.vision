@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "jekyll clean && run-p dev:jekyll",
     "dev:jekyll": "sleep 5 && jekyll serve --config _config.yml,_config_dev.yml --watch",
-    "build": "run-s build:jekyll",
-    "build:jekyll": "JEKYLL_ENV=production jekyll build --config _config.yml,_config_prod.yml"
+    "prod": "run-s prod:jekyll",
+    "prod:jekyll": "JEKYLL_ENV=production jekyll build --config _config.yml,_config_prod.yml"
   },
   "repository": {
     "type": "git",
