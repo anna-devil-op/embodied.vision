@@ -116,7 +116,8 @@ const m = window.m
     'Eyesight Matters in Health',
     'Bates Method Fundamentals',
     'Somatic Seeing',
-    'One to One Sessions'
+    'One to One Sessions',
+    'Vision Circle'
   ]
 
   const introduction = contactApp.textContent

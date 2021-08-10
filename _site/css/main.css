@@ -36,6 +36,8 @@ fieldset { padding: 10px; background-color: rgba(31, 102, 255, 0.2); }
 
 @media (min-width: 768px) { fieldset { padding: 20px; } }
 
+.new-content { color: #1f66ff; }
+
 .form-group { line-height: 1.5; }
 
 .form-group textarea { height: 10em; }
@@ -124,7 +126,7 @@ section { padding: 50px 0; }
 
 .portfolio-box .portfolio-box-caption .project-details { padding: 2px 15px; }
 
-@media (min-width: 992px) { .portfolio-box .portfolio-box-caption { min-height: 280px; } .portfolio-box .portfolio-box-caption .project-name { font-size: 32px; } .portfolio-box .portfolio-box-caption .project-category { font-size: 24px; } .portfolio-box .portfolio-box-caption .project-details { font-size: 20px; } }
+@media (min-width: 992px) { .portfolio-box .portfolio-box-caption { min-height: 280px; } .portfolio-box .portfolio-box-caption .project-name { font-size: 32px; } .portfolio-box .portfolio-box-caption .project-category { font-size: 24px; } .portfolio-box .portfolio-box-caption .project-details { font-size: 20px; } .portfolio-box .portfolio-box-caption .project-new { font-size: 24px; } }
 
 .portfolio-box:hover { transform: translate(2px, 2px); transition: transform .5s; }
 
@@ -201,7 +203,7 @@ html { height: 100%; }
 .parallax_image { background-image: url("../img/parallax_image"); }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) { .parallax, .parallax_image { background-attachment: scroll; background-size: cover; } }
+@media only screen and (max-device-width: 767px) { .parallax, .parallax_image { background-attachment: scroll; background-size: cover; } }
 
 .theme-secondary { color: #1f66ff; }
 

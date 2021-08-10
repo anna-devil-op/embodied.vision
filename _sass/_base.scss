@@ -86,6 +86,10 @@ fieldset {
     }
 }
 
+.new-content {
+    color: $theme-secondary;
+}
+
 .form-group {
     line-height: 1.5;
     textarea {
@@ -364,6 +368,9 @@ section {
             .project-details {
                 font-size: 20px;
             }
+            .project-new {
+                font-size: 24px;
+            }
         }
     }
     &:hover {
@@ -527,7 +534,7 @@ html {
 }
 
  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 767px) {
     .parallax {
         background-attachment: scroll;
         background-size: cover;
