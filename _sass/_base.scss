@@ -614,8 +614,15 @@ blockquote {
         color: rgb(66, 66, 66);
     
         &::before {
-        content: "\2014 \00A0"; // em dash, nbsp
+            content: "\2014 \00A0"; // em dash, nbsp
         }
+    }
+}
+
+blockquote.academic {
+    background-color: $theme-background;
+    footer {
+        color: $theme-dark;
     }
 }
 
