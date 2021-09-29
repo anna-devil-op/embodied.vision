@@ -117,7 +117,7 @@ const m = window.m
     'Bates Method Fundamentals',
     'Somatic Seeing',
     'One to One Sessions',
-    'Vision Circle'
+    'Seeing Mindfully'
   ]
 
   const introduction = contactApp.textContent
