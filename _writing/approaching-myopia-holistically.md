@@ -1,0 +1,135 @@
+---
+layout: post
+title:  "Approaching Myopia Holistically: A Case Study and Theoretical Exploration"
+date:   2002-06-01
+image: /img/personal_healing_journey
+image-alt: Life images containing various levels of blur
+abstract: Myopia is a commonly occurring condition which, in western countries, affects 30-35% of the population. At present the most common way of treating myopia is by optical intervention by means of spectacles, contact lenses or surgery. An exploration of the history of and scientific rationale for the current methods of treatment are presented. The concept of myopia as a holistic phenomenon and the idea of the possibility of healing are introduced. A case study of a patient reducing spectacle strength and using holistic healing techniques to induce changes in myopia is presented alongside a statement from the patient. It is concluded that the contemporary model of vision which justifies the prescription of negative lenses in cases of myopia needs re-examining in light of the case study presented.
+---
+
+THE JOURNAL OF ALTERNATIVE AND COMPLEMENTARY MEDICINE  
+Volume 8, Number 3, 2002, pp. 371-377  
+© Mary Ann Liebert, Inc.
+
+# Abstract
+
+**Introduction:** Myopia is a commonly occurring condition which, in western countries, affects 30-35% of the population. At present the most common way of treating myopia is by optical intervention by means of spectacles, contact lenses or surgery.
+
+**Background:** An exploration of the history of and scientific rationale for the current methods of treatment are presented. The concept of myopia as a holistic phenomenon and the idea of the possibility of healing are introduced.
+
+**Case Study:** A case study of a patient reducing spectacle strength and using holistic healing techniques to induce changes in myopia is presented alongside a statement from the patient.
+
+**Conclusion:** It is concluded that the contemporary model of vision which justifies the prescription of negative lenses in cases of myopia needs re-examining in light of the case study presented.
+
+# Introduction
+
+Myopia has been described as “the state of refraction in which parallel rays of light entering the eye are brought to rest in front of the retina” (Curtin, 1985). It is experienced as a blurring of distant vision, the degree of blur and the distance at which it occurs varying with the degree of myopia. The rate of myopia incidence varies widely across the world. Children raised in rural Nepal show an incidence rate of 3% (Garner et al, 1999) and Hong Kong schoolchildren an incidence rate of 62% (Lam et al, 1999). The trend in western countries is a rate of 30-35% (Grosvenor and Goss, 1999). Conventional treatment alters the refractive state at the front of the eye allowing light entering the eye to focus on the retina by means of spectacles, contact lenses, orthokeratology (the procedure in which rigid contact lenses worn at night are fitted in such a way as to temporarily flatten the corneal apex), or surgery on the cornea. None of these methods changes the myopic state of the eye, that is, the myopia remains but it is compensated for.
+
+# Background
+
+## History
+
+The experience of myopia is, in any culture with an established optometry profession, intimately linked with the experience of refractive correction by the means described above. (Where lenses or spectacles are referred to, any of the above techniques are also being referred to.) Understanding myopia and questioning the role of optical intervention means a wider historical and philosophical exploration of the reasons and justifications for this intervention (Bambridge, 2001). This article consists of an exploration of the scientific reasoning for medical intervention in the case of myopia and uses a case study methodology (Bromley, 1986). It concludes that when myopia is viewed within a holistic model of health healing (that is a reversal of the myopia and a change to clearer vision) is possible making optical intervention unnecessary.
+
+Optical intervention and more specifically the organised method of assigning a refractive prescription as an optometrist does, has grown from the scientific study of optics, especially the late nineteenth century work of Helmholtz (1871) and Donders (1864). Insights into the nature of light and the way it travels through different media and the ability of glass lenses and prisms to bend and focus light were used to model the eye and its focussing system.
+
+The process of science is a collective activity in gathering organised knowledge. This knowledge is rooted around hypotheses that are continually being tested with each observation and with each experiment. When the results of an experiment or an observation are not compatible with the hypothesis then either the quality of the experiment is called into question or the hypothesis is re-thought in order to harmonise theory and observation. It is this tension between theory and experiment or observation which is the catalyst for the creativity of new ideas and new experiments in the development of science. (This relationship can be taken to the point where theory emerges from observation rather than observation or experiment testing theoretical hypotheses (Glaser & Strauss, 1967).) Throughout the process, however it is conducted, there can be no apodictic certainty beyond the reach of criticism (Medawar, 1984) and hypotheses always remain hypotheses, that is suppositions to the complete certainty of which we can never attain (Kant c.1790, cited in Medawar, 1984). When the tense balance between the information gathering and theorising of science is lost then there can be an overload of observations and information without any theoretical grounding to bind the information together to make sense of it. Likewise hypotheses can be taken as ‘truths’ and as such any discrepancy between experiment or observation and theory is always seen as a lack of rigour in experimental technique. It is at this point that science ceases and is overtaken by dogma. It is an imbalance of this sort which has led to a continuing general disbelief within the profession of optometry that any improvements in vision are possible.
+
+Throughout the interweaving of theory and experiment different methods of inquiry and analysis can be used, the most successful being those which most accurately describe the results of experiments and observations. Examples of changes in methods of analysis are the use of calculus in describing curves and curved surfaces (Whiteside, 1968; Kreiling, 1968) multi-fractal geometry in the modelling of clouds and topography (Lovejoy et al, 2001) and special relativity in the analysis of high velocity astronomical observations (Bohm, 1996). Each of these theoretical models has extended the ability to make sense of experiment and observation and as such can be deemed as successful with the proviso that should a theory which describes the situation more accurately come about the current model would be superseded.
+
+The classical method of scientific analysis, which is the most commonly used for optometric research, involves a theoretical separation of all the possible components of interaction. Experimentation then takes place limiting as many variables as possible in order to establish cause and effect relations. When the number of variables is large and the interactions between them complex this method of analysis becomes inefficient and can break down or worse describe inaccurately the phenomenon. The problem is that the context-stripping that worked reasonably well for the classical physics of falling bodies has become the model of how to do every kind of science (Hubbard, 1989). Biological systems, specifically organisms are an example of a multi-variable system which classical reductionist techniques of analysis can often misdescribe. A non-biological example of this is a spiral. If a spiral were to be sectioned into many small pieces for analysis it could be concluded that it is made up of straight lines as this is what each piece would approximate. This analysis misses many important features of a spiral and is an example of the type of inaccuracies that can develop if the most appropriate tool of analysis is not used and the scale and context of a situation is not properly addressed. Likewise giving optical intervention for myopia whilst providing clarity of detail misses the context of a struggling visual system and the opportunities for healing.
+
+As engineering and electronics are practical applications of physics which reinforce our confidence in the truths of the field (our understanding of nature is only true to the extent that it works (Keller, 1989)) so medicine can be regarded as a practical application of our biological understanding for the promotion of healthy functioning. As scientific understanding shifts and changes so too do medicine and healthcare in reflection of these changes. The tools of analysis of biology have grown to reflect the patterns of the systems involved and their contextual, embedded and relational nature. It has come to be recognised that it is a relational order between components that matters more than material composition in living processes (Goodwin, 1994). The impact and role, therefore, of an individual part can not be understood outwith the context and associations of that part. This is a holistic approach to science and is an argument for a holistic approach to medicine and healthcare. Emphasising the relational order between components means that any symptom must be regarded within its system with all the interactions that entails.
+
+Working from a holistic viewpoint lifestyle, relationships, emotions and the body are all signals, reflections, part of and all of the state of health. Local symptoms, expressions of pain or disease can only be addressed in this context by a broad view of the needs and wants of the individual and his or her community. Healing, then, becomes an emotional process as well as a physical one. There is no thought, feeling or perception without molecular and chemical reaction and change. What one seeks to treat is ultimately the chemical/molecular manifestation of the way someone sees and interprets things (Jobst et al, 1999).
+
+## Myopia As A Holistic Phenomenon
+
+The blurred vision that accompanies myopia is, in this context, just one aspect of its manifestation. Myopia can also be described as a pattern of pronounced tension in the forehead, jaw, neck, shoulders, upper arms and lower back. It can be described as a reduced peripheral awareness and a prolonged central fixation time (staring) (Schneider et al, 1994). Myopia can be construed as a “state of compressed anxiety and unconscious apprehension” (Goodrich, 1985) and “introvertedness, over-control of emotions and a high tolerance for anxiety” (Lanyon and Giddings, 1974). When spectacles are worn the myopia is locked in place and the conscious vulnerability that blur brings about is lost, help and interaction are not requested or received and a sense of subconscious loneliness and distancing can occur. The world as projected through lenses is narrow, stark and shallow and for the person wearing the lenses the only world that exists. Lenses as a physical intervention have an impact on the body, thoughts, feelings and perceptions.
+
+Healing myopia, then, becomes a process of change. A relaxation of body tension, increasing of peripheral awareness, an expansion of a sense of context, an increase in the fluidity and depth of movement of eyes, body, thought and feeling. (It should also be noted that although myopia is the topic of this article there have also been reports of healing other vision difficulties using these techniques e.g. congenital cataracts and nystagmus (Schneider, 1987)). The following quotation is from a paper by Orfield who followed a program of vision therapy over a time span of seven years. “I saw space visibly expanding – people grew taller and the volume of space expanded enormously. Seeing space, very different from having 20/20 sight is the vision thing which is lost with strong lenses when central sight is all that is prescribed for. Regaining it is what makes reducing and controlling my myopia worthwhile. The ‘apparent motion’ of the trees and hedges where I walked caused me to perceive distances in new ways. I noted that the apparent speed of the stationary objects that seemed to move past me and around each other was all related to their distance from me as I walked past them. I felt as if the pillars were whizzing by, the pavement rolled under my feet. It was quite different from the telescopic sight in my strong lenses” (Orfield, 1994). Another description tells of experiences practising the Bates method of vision therapy (see below for a description). “My imagination became strong and clear and I was able to picture whatever I wanted to see. The world began to light up with a new found resonance and my resistance to the urban landscape, Los Angeles, and to the world in general diminished. I became more receptive to seeing the whole of what lay before my eyes. And so I discovered that the lessons included relinquishing my fears and defenses and looking directly at what was keeping me from fully facing the world. After a month or so, I suddenly glimpsed sharp, razor-like edges and neon colours. With time more glimpses came, now teasing me like insights slipping in and out of view. As I became more practised glimpses became long moments of rich perception. Soon fabulous shapes and vibrant colours signalled to me, edges were sharp all the time, and whole stories revealed themselves on street corners” (Sewall, 1999). These experiences illustrate the intensity of sensation that is reported when vision therapy is attempted.
+
+# Case Study
+
+## Optometric Report
+
+At the age of three the patient was prescribed minus lenses for myopia and a divergent squint. The squint ceased but throughout childhood the strength of the spectacle lenses increased until in 1995 when the patient was 21 years old the prescription was -9.75 -1.75×80 for the right eye and -9.50 -0.75×90 for the left. Unaided vision at this time was of the order 6/900. In 1996 the patient started using holistic techniques to work with vision and started changing the strength of the lenses worn. The strength of the first reduced prescription lenses were -7.25 -1.75×80 for the right eye and -7.75 -1.50×85 for the left (in 1996 spectacle lenses prescribed by and acuity measures taken by A. Kirshner, OD, FAAO, 1535 Sherbrooke St. W, Montreal, Que., Canada). On June the 12th 1996 when these were first worn the acuity as measured through them was 6/12. On July the 12th 1996 it was measured as 6/6 and the strength of the lenses reduced to -6.50 -1.75 x 80 for the right eye and -6.50 -1.50 x 85 for the left through which the acuity was again measured as 6/12. By August the 21st 1996 the patient’s acuity through these new lenses was measured as 6/6 and again they were changed, this time to -5.50 -1.75 x 80 for the right eye and -5.50 -1.50 x 85 for the left. From November 1996 the patient was spending from a few minutes to several hours each day without spectacles and in June 1997 the acuity as measured through the new spectacles was 6/6. In September 1997 the strength of the spectacle lenses was changed to -4.50D in both eyes. The amount of time the patient spent without spectacles was also steadily increasing so that sometimes a full day would be spent without them. In January 1998 unaided binocular vision was recorded as 6/18 (this measurement was recorded by an optometrist at Glasgow Caledonian University who also assisted in providing the changing prescriptions). In February 1998 the strength of part time wear lenses was reduced to -3.50D in both eyes and in April 1998 the patient stopped wearing spectacles altogether.
+
+## Treatment
+
+The time the patient spent without spectacles and in reduced strength lenses was supported by a variety of holistic techniques. These are listed below with a brief description of each.
+
+Craniosacral therapy is an unforced light touch form of bodywork reported to help access embodied trauma (Milne, 1995). Aromatherapy massage as was received by the patient was full body manipulative massage using essential oils (Vickers, 2000). The self-healing methods of Meir Schneider involve breathing exercises, body stretching and moving particularly in ways unfamiliar to the patient (Schneider, 1994). The Alexander technique is a bodywork technique which brings to attention habits of body use and facilitates new awareness of posture and movement. In a session the teacher will move the client through subtle posture changes particularly of the neck (Chance, 1999). The components of palming, swinging, swaying, shifting and sunning are together known as the Bates method (Mansfield, 1992). Palming is the name given to the technique of covering one’s own eyes with the palms of the hands. This gentle cupping of the eyes is recommended to be done in the dark. Standing up and rotating the body through 180? whilst throughout the movement keeping the line of sight in the direction of the nose and shoulders is known as swinging. Swaying involves rocking the weight from one foot to another whilst standing. The apparent motion between near objects and far objects can be observed whilst swaying. Shifting is the name given to the practise of observing details by shifting the focus of attention smoothly and rapidly from one point to another. Gazing at the sun through closed eyelids is known as sunning. The vision therapy that the patient took part in with a vision therapist was a mixture of the Bates method, psychotherapy and counselling.
+
+Initially (June – September 1996) the patient did a daily full body relaxation exercise and splashed cold water on the eyes. In the autumn of 1996 the patient started monthly sessions with a vision therapist. This support continued throughout the process although the session frequency was reduced to once every 3 months during 1998 and 1999. From September 1997 and throughout 1998 and 1999 the patient learned techniques of stretching, breathing and peripheral vision stimulation using the self-healing techniques of Meir Schneider. These were practised daily at home. During the autumn of 1998 the patient had craniosacral therapy, an Alexander technique lesson or an aromatherapy massage once a week. These sessions continued through 1999 with a decreased frequency of one session (massage, craniosacral therapy or Alexander technique) every 6 weeks.
+
+## Patient’s Statement
+
+“It is hard for me now to imagine my level of dependency on my glasses. I did not exist without them; they were a part of my identity that I had never questioned. Learning to change my vision was an entirely new experience and one which I was bringing about. From the optometrist who introduced me to the techniques I received enthusiasm, praise and encouragement but it was I who was undertaking and implementing the changes even if I did not quite understand them. The feelings of power and change were overwhelming and as my prescription changed so my sense of identity had to shift.
+
+I began to feel things I had never felt, sensations around my eyes and in my face. An uncovering through which I would weep. I could see in a way I had never seen before; the leaves moving on trees, the colour of the sky. Things I knew but had never felt before. The intensity was shocking and I could not deal with it and would often retreat to bed to recover from the experience. Movement and depth were also new and expanding and walking along a street felt like being on a rollercoaster with all the fear and excitement that accompanies such a ride. There was a new depth the like of which I had not known and I could feel how far away objects were and how far away I was. As I began to see more and in different ways I also began to feel different. There was a feeling of filling my body from the inside and my circulation improved so that icy hands and feet were not so common. I became more aware of my emotional state and that of other people, a change which was, at first, bewildering and confusing. A room full of people with its cacophony of interactions would leave me dizzy, feeling the need for retreat, feeling ill-equipped for the intensity of it.
+
+When I first saw clearly for a few moments my knees went weak, my heart pounded and it was a relief when my vision blurred back again. It felt so new and there was something about the clarity that was more frightening than the preceding blur. I was scared with an intensity that could leave me doubled over clutching my stomach, not moving, not daring to look. My muscles ached in my face and there was often a sensation of tightness. Anger would consume me but its expression, laughing and crying always brought me clarity.
+
+Having felt the fluidity, connectedness and ease of seeing, when I put glasses back on a retreated sadness came over me and I felt myself curl, my shoulders hunch up, my discomfort revealed in snide snips and my lack of communication. Each step into the blur has been a step into the unknown but through the bewilderment of the changes it has all made sense. There was a relaxing reassuring feeling amidst an emotional chaos. I could write, draw, hear music, look at pictures and feel the emotional content not just understand it from a distance. The same is true of my communication with other people. It became easier.
+
+My experience of wearing a refractive compensation for myopia is that it was inflexible, constrained, narrow, and numb, driven forward with an inability to change. Coming out of it was difficult. Sometimes I felt caught half-way up a cliff with no way down and no choice but to cling and keep climbing. It is at these times that family, friends, therapists, being outdoors, music and art have not just eased the process of healing but been the instrument of it and the very reason for it. I discovered that change was possible, found I had the capability for an independence of vision and the idea of putting lenses back on now fills me with desolation.”
+
+# Conclusion
+
+In this article the scientific justifications behind the contemporarily dominant theory of vision which underpins the profession of optometry were explored. The contextual relevance and appropriateness of scientific models was discussed and the emergence of holistic models in biology presented as a rationale for experimenting with holistic models in healthcare. A case study which involves a holistic approach to myopia was presented. The results of this study were an increase in acuity, a loosening of tension and a heightening of sensations of perception. This study of a holistic approach to myopia interprets myopia as being intrinsically part of the human process and as such any attempt at changing it involves an interaction with that process. Any successful healing from this perspective entails paying attention to a deep, embedded world of symbolism and metaphor and a commitment to the textured interaction such attention brings about.
+
+This case study and the experience of undergoing the changes described are offered as evidence that the contemporary model of vision that justifies the prescribing of negative lenses for myopia needs to be re-examined. Because the case study presented was an experiment with holistic health techniques this also implies an engagement with the question of validity of a holistic model of health.
+
+
+# References
+
+Bambridge, A. An Investigation of Myopic Visual Function and the Effect of Holistic Vision Therapy. MPhil thesis, Glasgow Caledonian University, 2001.
+
+Bohm, D. The Special Theory of Relativity. Routledge, London, 1996.Bromley, DB, The Case Study Methodology in Psychology and Related Disciplines. John Wiley and Sons, Great Britain, 1986.
+
+Chance, J. Thorsons Principles of the Alexander Technique. Thorsons, 1999.Curtin, B. The Myopias. Harper and Row, 1985.
+
+Donders, F. On the Anomalies of Accommodation and Refraction of the Eye: The New Sydenham Society: London, 1864.
+
+Garner, L., Owens, H., Kinnear, R. and Frith, M. Ocular dimensions and refraction in Tibetan children. Optom Vis Sci 1999;72:266-271.
+
+Glaser, BG, Strauss, AL. The Discovery of Grounded Theory: strategies for qualitative research. Aldine Publishing Company, New York, 1967.
+
+Goodrich, J. Natural Vision Improvement. Celestial Arts: Berkeley, California, 1985.
+
+Goodwin, B. How the Leopard Changed Its Spots: the Evolution of Complexity. Pheonix: London, 1994.
+
+Grosvenor, T. and Goss, D. Clinical Management of Myopia. Butterworth Heineman, 1999.
+
+Helmholtz, H. Helmholtz’s Treatise on Physiological Optics. Dover Publications,New York, 1871.
+
+Hubbard, R. Science, Facts and Feminism. In: Tuana, N, ed. Feminism and Science, Indiana University Press, 1989:119-131.
+
+Jobst, KA, Shostak, D. and Whitehouse, PJ. Diseases of Meaning: Manifestations of Health, and Metaphor. J Altern Complement Med 1999;5:495-502.
+
+Keller, EF, The Gender/Science System. In: Tuana, N, ed. Feminism and Science, Indiana University Press, 1989:33-44.
+
+Kreiling, FC. Leibniz. In: Kline, M, ed. Mathematics: An Introduction to its Spirit and Use. San Fancisco: W.H. Freeman and Company, 1968:33-38
+
+Lam, C., Edwards, M., Millodot, M. and Goh, W. A 2-year longitudinal study of myopia progression and optical component changes among Hong Kong schoolchildren. Optom Vis Sci 1999;76:370-380.
+
+Lanyon, R. and Giddings, J. Psychological Approaches to Myopia: a Review. Am J Ophthal Physiol Opt 1974;51:271-281.
+
+Lovejoy, S, Schertzer, D, Tessier, Y and Gaonacï, H. Multifractals and resolution-independent remote sensing algorithms: the example of ocean colour. Int J Remote Sensing 2001;22,7:1191-1234
+
+Mansfield, P. The Bates Method. MacDonald Optima, UK: London, 1992.Medawar, P. The Limits of Science. Oxford University Press, 1984.
+
+Milne, H. The Heart of Listening, A Visionary Approach to Craniosacral Work. North Atlantic Books, Berkeley, California, 1995.
+
+Orfield, A. Seeing Space: Undergoing brain re-programming to reduce myopia. J Behav Optom 1994;5:123-131.
+
+Schneider, M. Self-Healing: My Life and Vision. Penguin Arkana: London, 1987.
+
+Schneider, M. Larkin, M. and Schneider, D. The Handbook of Self-Healing. Penguin Arkana, 1994.
+
+Sewall, L. Sight and Sensibility: The Ecopsychology of Perception. Tarcher.Putnam: New York, 1999:3.
+
+Vickers, A. Why aromatherapy works (even if it doesn’t) and why we need less research Br J Gen Prac 2000 Jun; 50(455):444-5
+
+Whiteside, DT. The Mathematical Papers of Isaac Newton, Volume I, 1664-1666. In: Kline, M, ed. Mathematics: An Introduction to its Spirit and Use. San Fancisco: W.H. Freeman and Company, 1968:29-32
