@@ -6,7 +6,13 @@ image: /img/grow_old_with_good_eyesight
 image-alt: a woman looking out of the window on a bus
 abstract: It is possible to see well throughout life. This is the story of one woman who did.
 ---
-![{{ page.image-alt }}]({{ page.image }})
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="{{ page.image }}" 
+    alt="{{ page.image-alt }}"/>
 
 Do you really need reading glasses? This is Lorena’s Story.
 

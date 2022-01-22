@@ -6,7 +6,13 @@ image:
 image-alt: 
 abstract: What words do you use to describe your eyes and vision? Anna Bambridge explores the importance of the language of seeing.
 ---
-![{{ page.image-alt }}]({{ page.image }})
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="{{ page.image }}" 
+    alt="{{ page.image-alt }}"/>
 
 What words do you use to describe your eyes and vision? Anna Bambridge explores the importance of the language of seeing.
 
