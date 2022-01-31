@@ -2,10 +2,11 @@
 layout: post
 title:  "Approaching Myopia Holistically: A Case Study and Theoretical Exploration"
 date:   2002-06-01
-image: /img/journal_of_alternative_complementary_medicine
+image: img/journal_of_alternative_complementary_medicine
 image-alt: The journal of alternative and complementary medicine cover
 abstract: Myopia is a commonly occurring condition which, in western countries, affects 30-35% of the population. At present the most common way of treating myopia is by optical intervention by means of spectacles, contact lenses or surgery. An exploration of the history of and scientific rationale for the current methods of treatment are presented. The concept of myopia as a holistic phenomenon and the idea of the possibility of healing are introduced. A case study of a patient reducing spectacle strength and using holistic healing techniques to induce changes in myopia is presented alongside a statement from the patient. It is concluded that the contemporary model of vision which justifies the prescription of negative lenses in cases of myopia needs re-examining in light of the case study presented.
 ---
+<img class="post-image" src="/{{ page.image | bust_cache }}" alt="{{ page.image-alt }}"/>
 
 THE JOURNAL OF ALTERNATIVE AND COMPLEMENTARY MEDICINE  
 Volume 8, Number 3, 2002, pp. 371-377  

@@ -2,17 +2,11 @@
 layout: post
 title:  "Healing Vision Without Spectacles, Contact Lenses or Refractive Surgery: A Personal Journey"
 date:   2018-06-18
-image: /img/personal_healing_journey
+image: img/personal_healing_journey
 image-alt: Life images containing various levels of blur
 abstract: Whenever I try to speak about my vision it becomes difficult, partly because my vision is constantly moving, shifting and changing, so the act of description feels like pinning down and killing a butterfly, and partly because of the multitude of metaphors in the visual vocabulary. What is your focus? What is your perspective? How is your sense of depth? Are things colourful for you? All of these are valid questions about eyesight but they also mean more. The discussions these questions can provoke entail answers about relationships, direction, motivation, awareness, and all of life. When I speak about my vision, I am speaking about my life.
 ---
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 100%;"
-    src="{{ page.image }}" 
-    alt="{{ page.image-alt }}"/>
+<img class="post-image" src="/{{ page.image | bust_cache }}" alt="{{ page.image-alt }}"/>
 
 # My Journey
 

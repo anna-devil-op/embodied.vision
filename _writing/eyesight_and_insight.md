@@ -2,17 +2,11 @@
 layout: post
 title:  "Eyesight and Insight"
 date:   2008-05-01
-image: /img/eyesight_and_insight
+image: img/eyesight_and_insight
 image-alt: close-up picture of an eye
 abstract: Ten years ago Anna Bambridge was so short-sighted she couldn't have seen the print without her strong glasses. Today, with her natural vision, she can see the page well at arm's length. Join her on her sometimes difficult, often surprising and ultimately delightful healing journey from ‘fuzz’ to focus.
 ---
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 100%;"
-    src="{{ page.image }}" 
-    alt="{{ page.image-alt }}"/>
+<img class="post-image" src="/{{ page.image | bust_cache }}" alt="{{ page.image-alt }}"/>
 
 "As I am writing this, the words on the page are clear to me. When I stop to notice and appreciate this it still takes my breath away and leaves me with a sense of wonder"
 

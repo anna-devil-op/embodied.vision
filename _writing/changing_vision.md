@@ -2,17 +2,11 @@
 layout: post
 title:  "Changing Vision"
 date:   2008-05-01
-image: /img/changing_vision
+image: img/changing_vision
 image-alt: neon coloured fractal
 abstract: Integrating science and experience
 ---
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 100%;"
-    src="{{ page.image }}" 
-    alt="{{ page.image-alt }}"/>
+<img class="post-image" src="/{{ page.image | bust_cache }}" alt="{{ page.image-alt }}"/>
 
 # Integrating science and experience
 

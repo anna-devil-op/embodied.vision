@@ -2,17 +2,11 @@
 layout: post
 title:  "Show Me Colours – A lifetime of good eyesight"
 date:   2020-06-30
-image: /img/show_me_colours
+image: img/show_me_colours
 image-alt: Peggy painting
 abstract: It is possible to see well throughout life. This is the story of one woman who did.
 ---
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 100%;"
-    src="{{ page.image }}" 
-    alt="{{ page.image-alt }}"/>
+<img class="post-image" src="/{{ page.image | bust_cache }}" alt="{{ page.image-alt }}"/>
 
 It is possible to see well throughout life. Here is the story of one woman who did.
 

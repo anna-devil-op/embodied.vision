@@ -10,7 +10,7 @@
                             {{ doc.title }}
                         </div>
                         <div class="writing-post-overlay-container">
-                            <img class="writing-post-image" src="{{ doc.image }}" alt="{{ doc.image-alt }}">
+                            <img class="writing-post-image" src="{{ doc.image | bust_cache }}" alt="{{ doc.image-alt }}">
                             <div class="writing-post-overlay">
                                 <div class="writing-post-overlay-text">
                                     {{ doc.abstract }}
