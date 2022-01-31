@@ -134,13 +134,13 @@ section { padding: 50px 0; }
 
 .writing-post-box { display: block; margin: 0 0 20px 0; }
 
-.writing-post-box:hover { transform: translate(2px, 2px); transition: transform .5s; }
-
 .writing-post-box:hover .writing-post-overlay { height: 100%; }
 
 .writing-post-box-content { color: white; background-color: #1f66ff; text-align: center; border-radius: 10px; border: 1px solid #1f66ff; line-height: 1.1; overflow: clip; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
 
 .writing-post-title { padding: 1rem 1.5rem; font-weight: 800; font-size: 24px; }
+
+@media (min-width: 768px) { .writing-post-title { min-height: 4.5em; } }
 
 @media (min-width: 992px) { .writing-post-title { font-size: 28px; } }
 
