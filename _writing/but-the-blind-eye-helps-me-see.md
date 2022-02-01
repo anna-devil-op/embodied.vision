@@ -13,8 +13,8 @@ This is the story of Elaine and the journey that we took together exploring her 
 # Vision History
 
 > I first got glasses when I was about 5 and I had a severe detached retina when I was about 12. I had surgery. A buckle placed around my eye which didn’t work and a series of operations including my vitreous being removed and replaced with oil. My eye rejected that. There were long recovery periods after the operations. I had severe double vision for quite a long time – it was difficult. My right eye retina did detach completely but I had a few years of seeing shape and light from dark. At 17 or 18 years old I totally lost vision in my right eye.
-
-At age 22 or 23 I noticed spots of flashing and went to the hospital and they said there was a hole in the left retina. A band was put in and again the eye rejected the band (it bulged under eyelid) and it was removed. The retina remained stable with increased episodes of flashing but no detachment.”
+>  
+> At age 22 or 23 I noticed spots of flashing and went to the hospital and they said there was a hole in the left retina. A band was put in and again the eye rejected the band (it bulged under eyelid) and it was removed. The retina remained stable with increased episodes of flashing but no detachment.”
 
 What Elaine presented with on that first session was no sight at all in her right eye. With her left eye, she was experiencing some peripheral vision loss, a vitreous veil floater which sometimes obscured her vision and flashing in an area across and to the right of her central vision. She was also wearing a -7D contact lens. That day she saw 20/40 with the lens and 2/200 without it.
 
@@ -33,7 +33,7 @@ We met for 27 sessions over 2 ½ years and we worked with a standard programme o
 Elaine’s vision measured on an eye chart got better when her right eye was included. Her right eye needed to be part of the picture for her to have access to her best sight.
 
 > Working with techniques with eyes separately and together I realised that my right eye really did play a role. My left eye doesn’t see so well when my right eye is covered. What I’ve realised is that my right eye does support the vision in my left eye. And my overall vision is better with both eyes open. The work that we do has helped me reduce the impact that stress has on my vision. What I’ve realised is that stress plays a huge factor in how I see.
-
+>  
 > It’s been interesting to see how my vision can change throughout the activities.
 
  

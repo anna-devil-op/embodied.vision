@@ -4,7 +4,7 @@ title:  "Changing Vision"
 date:   2008-05-01
 image: img/changing_vision
 image-alt: neon coloured fractal
-abstract: Integrating science and experience
+abstract: Any work that would be academically acceptable had to be built in a framework in which I was a logical impossibility.
 ---
 <img class="post-image" src="/{{ page.image | bust_cache }}" alt="{{ page.image-alt }}"/>
 

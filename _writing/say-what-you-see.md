@@ -33,3 +33,5 @@ People’s relationship with their eyesight, especially when they are experienci
 # Bates Method as Metaphor
 
 The metaphor of the visual vocabulary goes on and gets deeper. How colourful is what you see? Do you have a sense of perspective? Do you experience depth? Can you see the point? All of these are valid questions when learning about the nature of someone’s eyesight, but they all mean so much more. Do you see?
+
+First published on batesvisioneducation.org November, 2021

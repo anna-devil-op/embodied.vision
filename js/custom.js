@@ -209,7 +209,6 @@ const m = window.m
           ]),
           m(emailComponent),
           m('.form-group', [
-            m('p', 'If you would like to attend a course can you please write a little about what you do and why you would like to attend this course?'),
             m('label', { for: 'contact_message' }, 'Message'),
             m('textarea.form-control#contact_message', {
               oninput: e => contactModel.setMessage(e.target.value),

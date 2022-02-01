@@ -4,11 +4,11 @@ title:  "Grow Old With Good Eyesight"
 date:   2020-06-30
 image: img/grow_old_with_good_eyesight
 image-alt: a woman looking out of the window on a bus
-abstract: Do you really need reading glasses? This is Lorena’s Story.
+abstract: Do you really need reading glasses? This is the story of Lorena whose eyesight improved through her 70s.
 ---
 <img class="post-image" src="/{{ page.image | bust_cache }}" alt="{{ page.image-alt }}"/>
 
-Do you really need reading glasses? This is Lorena’s Story.
+{{ page.abstract }}
 
 # Short-sight and presbyopia
 
@@ -20,9 +20,9 @@ Lorena came to see me 2 or 3 times a year. We would check her vision and I would
 
 If you dug about there were always things to work with but basically she had good eyesight. Her eyes worked well together and she could drive and read without glasses. She had good vision habits. When I taught her the Bates Method practice of shifting it was natural to her. She described having done it spontaneously as a child. She spoke of enjoying the twilight in her home and not turning the lights on as it got darker. This gave her exposure to a healthy range of lighting conditions.
 
-“I like palming. I like the way I see better after it too. There’s such an obvious change in how much more I can see.”
-
-Lorena Mann, 2014.
+> I like palming. I like the way I see better after it too. There’s such an obvious change in how much more I can see.  
+>   
+> --- Lorena Mann, 2014.
 
 # Improved eyesight for reading
 
@@ -46,3 +46,5 @@ Lorena was a dynamic person. In her seventies, she was working and travelling in
 In 2011 Lorena had a haemorrhage and needed brain surgery. She recovered well from this and got back to working and travelling. Through this and subsequent other health issues, she still came to see me for a vision lesson when she could. We would check her sight and discuss how what was going on was impacting her vision. She had keen awareness, self-knowledge and motivation. The vision issues she had she was able to manage naturally.
 
 In 2016 Lorena passed away. I am glad I was able to attend her funeral to say goodbye and celebrate her with her family and friends. I feel privileged to have known and worked with her.
+
+First published on batesvisioneducation.org December, 2019

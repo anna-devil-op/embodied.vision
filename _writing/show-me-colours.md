@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Show Me Colours – A lifetime of good eyesight"
+title:  "Show Me Colours: A Lifetime of Good Eyesight"
 date:   2020-06-30
 image: img/show_me_colours
 image-alt: Peggy painting
@@ -31,3 +31,5 @@ When I think of Peggy in relation to the Bates Method, I am always struck by how
 Peggy spent her life relishing her visual sense. Her paintings are vibrant and colourful. She had a cut-glass hanging at her window, which reflected small rainbows throughout her room when the sun shone on it. She spoke with joy of the purity of these colours like she was drinking them.
 
 Peggy passed away in March 2019. Her last request was “Show me colours!”. She was too weak to open her eyes, but her son spoke softly to her of the beautiful greens of leaves, the vibrant reds of flowers and blues of bird wings. He composed a song of these colourful descriptions which he sang at her funeral. It was a fitting tribute conveying the essence of Peggy and her passion, vibrancy and light.
+
+First published on batesvisioneducation.org June, 2020

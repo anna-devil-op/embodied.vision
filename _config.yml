@@ -35,7 +35,15 @@ collections:
   writing:
     output: true
     order:
+      - say-what-you-see.md
+      - show-me-colours.md
+      - grow-old-with-good-eyesight.md
+      - but-the-blind-eye-helps-me-see.md
+      - the-power-of-the-vulnerability-of-blurred-vision.md
+      - eyesight-and-insight.md
       - healing-vision-without-spectacles.md
+      - changing-vision.md
+      - approaching-myopia-holistically.md
 defaults:
   -
     scope:
@@ -44,7 +52,6 @@ defaults:
     values:
       layout: "post"
       author: "Anna Bambridge"
-excerpt_separator: <!--more-->
 
 # Exclude from processing.
 # The following items will not be processed, by default.
