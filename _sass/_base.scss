@@ -386,6 +386,32 @@ section {
     }
 }
 
+.podcasts {
+    margin: 1em 0 0 0;
+}
+
+.podcast-title {
+    text-align: center;
+    margin: 1em auto 1em auto;
+    font-weight: 800;
+}
+
+.podcast-post-box {
+    display: block;
+    margin: 0;
+}
+
+.podcast-post-box-content {
+    color: $theme-primary;
+    background-color: $theme-secondary;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid $theme-secondary;
+    line-height: 0.7;
+    overflow: clip;
+    @include transition-all;
+}
+
 .writing-post-box {
     display: block;
     margin: 0 0 20px 0;
@@ -545,9 +571,6 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    @media (min-width: 992px) {
-        min-height: 200px;
-    }
 }
 
 .parallax_image {

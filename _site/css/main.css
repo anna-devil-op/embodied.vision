@@ -132,6 +132,14 @@ section { padding: 50px 0; }
 
 .portfolio-box:hover .portfolio-box-caption { transition: box-shadow .5s; box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.2); }
 
+.podcasts { margin: 1em 0 0 0; }
+
+.podcast-title { text-align: center; margin: 1em auto 1em auto; font-weight: 800; }
+
+.podcast-post-box { display: block; margin: 0; }
+
+.podcast-post-box-content { color: white; background-color: #1f66ff; text-align: center; border-radius: 10px; border: 1px solid #1f66ff; line-height: 0.7; overflow: clip; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
+
 .writing-post-box { display: block; margin: 0 0 20px 0; }
 
 @media (min-width: 992px) { .writing-post-box:hover .writing-post-overlay { height: 100%; } }
@@ -201,8 +209,6 @@ body { -webkit-tap-highlight-color: #222; }
 html { height: 100%; }
 
 .parallax, .parallax_image { min-height: 100px; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: contain; }
-
-@media (min-width: 992px) { .parallax, .parallax_image { min-height: 200px; } }
 
 .parallax_image { background-image: url("../img/parallax_image"); }
 
