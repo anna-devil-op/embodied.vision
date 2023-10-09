@@ -110,6 +110,8 @@ section { padding: 50px 0; }
 
 @media (min-width: 992px) { section { padding: 100px 0; } }
 
+.section-pre-heading { text-align: center; margin: 0 auto 50px auto; }
+
 .section-heading { text-align: center; margin: 0 auto 50px auto; font-weight: 800; font-size: 30px; }
 
 @media (min-width: 768px) { .section-heading { font-size: 38px; margin-bottom: 70px; } }
