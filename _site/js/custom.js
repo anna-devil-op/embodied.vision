@@ -115,7 +115,8 @@ const m = window.m
   const interests = [
     'Somatic Seeing',
     'One to One Sessions',
-    'Lenses and Charts'
+    'Lenses and Charts',
+    'Natural Vision Care Basics'
   ]
 
   const introduction = contactApp.textContent
