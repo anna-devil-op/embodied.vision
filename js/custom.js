@@ -113,11 +113,9 @@ const m = window.m
   })()
 
   const interests = [
-    'Eyesight Matters in Health',
-    'Bates Method Fundamentals',
     'Somatic Seeing',
     'One to One Sessions',
-    'Seeing Mindfully'
+    'Lenses and Charts'
   ]
 
   const introduction = contactApp.textContent
