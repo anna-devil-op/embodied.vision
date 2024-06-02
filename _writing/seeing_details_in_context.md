@@ -7,6 +7,7 @@ image-alt: fabric detail
 abstract: I would like to discuss how the stories that we have about ourselves as individuals, groups and whole cultures shape how we see things.
 ---
 <img class="post-image" src="/{{ page.image | bust_cache }}" alt="{{ page.image-alt }}"/>
+<p style="text-align: center;"><em>Fabric Detail from They Sustain Us by Skawennati</em></p>
 
 > "History...is not merely something to be read. And it does not refer merely, or even principally, to the past. On the contrary, the great force of history comes from the fact that we carry it within us, are unconsciously controlled by it in many ways, and history is literally present in all that we do. It could scarcely be otherwise, since it is to history that we owe our frames of reference, our identities, and our aspirations. And it is with great pain and terror that one begins to realize this. In great pain and terror one begins to assess the history which has placed one where one is and formed one's point of view. In great pain and terror because, therefore, one enters into battle with that historical creation, Oneself, and attempts to recreate oneself according to a principle more humane and more liberating; one begins the attempt to achieve a level of personal maturity and freedom which robs history of its tyrannical power, and also changes history."
 
