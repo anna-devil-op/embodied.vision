@@ -35,6 +35,7 @@ collections:
   writing:
     output: true
     order:
+      - seeing-details-in-context.md
       - say-what-you-see.md
       - show-me-colours.md
       - grow-old-with-good-eyesight.md
