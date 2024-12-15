@@ -2,7 +2,7 @@
 layout: post
 title:  "Grow Old With Good Eyesight"
 date:   2020-06-30
-image: img/grow_old_with_good_eyesight
+image: img/woman_on_bus.jpg
 image-alt: a woman looking out of the window on a bus
 abstract: Do you really need reading glasses? This is the story of Lorena whose eyesight improved through her 70s.
 ---

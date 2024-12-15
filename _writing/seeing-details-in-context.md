@@ -2,7 +2,7 @@
 layout: post
 title:  "Seeing Details in Context"
 date:   2023-08-01
-image: img/seeing_details_in_context
+image: img/fabric_detail.jpg
 image-alt: fabric detail
 abstract: I would like to discuss how the stories that we have about ourselves as individuals, groups and whole cultures shape how we see things.
 ---

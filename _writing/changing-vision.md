@@ -2,7 +2,7 @@
 layout: post
 title:  "Changing Vision"
 date:   2008-05-01
-image: img/changing_vision
+image: img/changing_vision.jpg
 image-alt: neon coloured fractal
 abstract: Any work that would be academically acceptable had to be built in a framework in which I was a logical impossibility.
 ---

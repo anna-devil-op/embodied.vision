@@ -189,14 +189,14 @@ fieldset {
     min-height: auto;
     text-align: center;
     color: $theme-primary;
-    background-image: url("../img/portrait_header_background");
+    background-image: url("../img/rainbow_horizontal.jpg");
     background-size: cover;
     overflow-x: clip;
     overflow-y: visible;
     @media (min-width: 992px) {
         min-height: 100%;
         max-height: 100%;
-        background-image: url("../img/parallax_image");
+        background-image: url("../img/rainbow_vertical.jpg");
      }
 }
 
@@ -269,10 +269,10 @@ fieldset {
     min-height: 200px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../img/portrait_header_background");
+    background-image: url("../img/rainbow_horizontal.jpg");
     background-size: cover;
     @media (min-width: 992px) {
-        background-image: url("../img/parallax_image");
+        background-image: url("../img/rainbow_horizontal.jpg");
     }
 }
 
@@ -580,7 +580,7 @@ html {
 
 .parallax_image {
     @extend .parallax;
-    background-image: url("../img/parallax_image");
+    background-image: url("../img/rainbow_vertical.jpg");
 }
 
  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */

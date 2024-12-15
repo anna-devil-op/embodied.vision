@@ -2,7 +2,7 @@
 layout: post
 title:  "Healing Vision: A Personal Journey"
 date:   2018-06-18
-image: img/personal_healing_journey
+image: img/personal_healing_journey.jpg
 image-alt: Life images containing various levels of blur
 abstract: What is your focus? What is your perspective? How is your sense of depth? Are things colourful for you? All of these are valid questions about eyesight but they also mean more.
 ---

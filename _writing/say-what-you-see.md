@@ -2,7 +2,7 @@
 layout: post
 title:  "Say What You See"
 date:   2021-10-29
-image: img/say_what_you_see
+image: img/descriptive_vision_words.jpg
 image-alt: descriptive words for vision
 abstract: What words do you use to describe your eyes and vision? Anna Bambridge explores the importance of the language of seeing.
 ---

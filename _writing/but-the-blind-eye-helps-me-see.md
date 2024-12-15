@@ -2,7 +2,7 @@
 layout: post
 title:  "But the Blind Eye Helps Me See"
 date:   2019-04-13
-image: img/but_the_blind_eye_helps_me_see
+image: img/sun_on_the_forest_floor.jpg
 image-alt: the sun shining on a forest floor
 abstract: The story of Elaine and the journey that we took together exploring her vision. Elaine first came to see me in January 2010. She was 36, a successful artist and businesswoman with an active social life and she was in a crisis.
 ---

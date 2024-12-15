@@ -2,7 +2,7 @@
 layout: post
 title:  "Approaching Myopia Holistically"
 date:   2002-06-01
-image: img/journal_of_alternative_complementary_medicine
+image: img/journal-of-alternative-complementary-medicine.jpg
 image-alt: The journal of alternative and complementary medicine cover
 abstract: The concept of myopia as a holistic phenomenon and the idea of the possibility of healing are introduced theoretically and with a case study.
 ---
