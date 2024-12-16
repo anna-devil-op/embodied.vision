@@ -17,6 +17,7 @@ deployment:
     - /bin/cp _site/site.webmanifest $DEPLOYPATH
     - /bin/cp -R _site/assets $DEPLOYPATH
     - /bin/cp -R _site/css $DEPLOYPATH
+    - /bin/cp -R _site/documents $DEPLOYPATH
     - /bin/cp -R _site/font-awesome $DEPLOYPATH
     - /bin/cp -R _site/fonts $DEPLOYPATH
     - /bin/cp -R _site/img $DEPLOYPATH
