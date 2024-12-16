@@ -291,12 +291,12 @@ fieldset {
   min-height: 200px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../img/rainbow_horizontal.jpg");
+  background-image: url("../img/rainbow_vertical.jpg");
   background-size: cover;
 }
 @media (min-width: 992px) {
   .post-header {
-    background-image: url("../img/rainbow_horizontal.jpg");
+    background-image: url("../img/rainbow_vertical.jpg");
   }
 }
 

@@ -45,6 +45,7 @@ collections:
       - healing-vision-without-spectacles.md
       - changing-vision.md
       - approaching-myopia-holistically.md
+      - thesis.md
 defaults:
   -
     scope:
