@@ -446,9 +446,9 @@ section {
 
 .podcast-post-box-content {
   color: white;
-  background-color: whitesmoke;
+  background-color: rgb(31, 102, 255);
   text-align: left;
-  color: #222;
+  color: white;
   border-radius: 10px;
   border: 2px solid rgb(31, 102, 255);
   overflow: clip;

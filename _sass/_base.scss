@@ -412,9 +412,9 @@ section {
 
 .podcast-post-box-content {
     color: $theme-primary;
-    background-color: whitesmoke;;
+    background-color: $theme-secondary;
     text-align: left;
-    color: $theme-dark;
+    color: $theme-primary;
     border-radius: 10px;
     border: 2px solid $theme-secondary;
     overflow: clip;
