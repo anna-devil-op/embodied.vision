@@ -37,4 +37,4 @@ play in vision is different for corrected acuity as compared with unaided vision
 data is presented in chapter 8 and vision therapy was found anecdotally to promote fluctuations 
 in vision.
 
-[Full thesis as PDF](/documents/Thesis - An Investigation of Myopic Visual Function and the Effect of Holistic Vision Therapy.pdf)
+[Full thesis as PDF](/documents/An_Investigation_of_Myopic_Visual_Function_and_the_Effect_of_Holistic_Vision_Therapy.pdf)
