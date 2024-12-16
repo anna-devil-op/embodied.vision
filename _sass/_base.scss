@@ -421,6 +421,11 @@ section {
     display: flex;
     align-items: center;
     @include transition-all;
+    &:hover {
+        .image {
+            content: url('../img/podcast_hover.png');
+        }
+    }
     .image {
         left: 0;
         width: 20%;
@@ -430,10 +435,6 @@ section {
         float: left;
         content: url('../img/podcast.png');
         transition: opacity 0.3s ease-in-out;
-    }
-
-    .image:hover {
-        content: url('../img/podcast_hover.png');
     }
     .titles {
         float: left;
@@ -487,7 +488,7 @@ section {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: rgba($theme-primary, .7);
+    background-color: rgba($theme-primary, .9);
     overflow: hidden;
     width: 100%;
     height: 0;
