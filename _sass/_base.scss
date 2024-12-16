@@ -428,6 +428,12 @@ section {
         margin-right: 15px;
         border-radius: 6px;
         float: left;
+        content: url('../img/podcast.png');
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .image:hover {
+        content: url('../img/podcast_hover.png');
     }
     .titles {
         float: left;
