@@ -716,6 +716,12 @@ html {
   width: 300px;
   height: auto;
 }
+@media (max-width: 768px) {
+  .profile-image {
+    margin-right: 10px;
+    width: 50%;
+  }
+}
 
 .workshop-image {
   width: 100%;

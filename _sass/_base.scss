@@ -631,6 +631,10 @@ html {
     margin-bottom: 10px;
     width: 300px;
     height: auto;
+    @media (max-width: 768px) {
+        margin-right: 10px;
+        width: 50%;
+    }
 }
 
 .workshop-image {
