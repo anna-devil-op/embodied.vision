@@ -155,7 +155,7 @@ fieldset {
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #222;
-  background-color: white;
+  background-color: hsl(220.9821428571, 100%, 136.0784313725%);
 }
 .navbar-default .navbar-nav .nav-link {
   text-transform: lowercase;
@@ -166,15 +166,15 @@ fieldset {
   padding-right: 2rem;
 }
 .navbar-default .navbar-nav .nav-link:hover {
-  background-color: white;
+  background-color: hsl(220.9821428571, 100%, 146.0784313725%);
   color: #222;
 }
 .navbar-default .navbar-nav .nav-link.active {
   color: #222 !important;
-  background-color: white;
+  background-color: hsl(220.9821428571, 100%, 136.0784313725%);
 }
 .navbar-default .navbar-nav .nav-link.active:hover {
-  background-color: white;
+  background-color: hsl(220.9821428571, 100%, 146.0784313725%);
 }
 @media (min-width: 768px) {
   .navbar-default {

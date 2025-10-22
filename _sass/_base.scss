@@ -1,3 +1,5 @@
+@use "sass:color";
+
 html,
 body {
     position: relative;
@@ -36,7 +38,7 @@ a {
     color: $theme-secondary;
     &:hover,
     &:focus {
-        color: darken($theme-secondary, 25%);
+        color: color.adjust($theme-secondary, $lightness: -25%, $space: hsl);
     }
 }
 
@@ -136,7 +138,7 @@ fieldset {
         &:hover,
         &:focus {
             color: $theme-dark;
-            background-color: lighten($theme-secondary, 80%);
+            background-color: color.adjust($theme-secondary, $lightness: 80%, $space: hsl);
         }
     }
     .navbar-nav .nav-link {
@@ -147,14 +149,14 @@ fieldset {
         padding-left: 2rem;
         padding-right: 2rem;
         &:hover {
-            background-color: lighten($theme-secondary, 90%);
+            background-color: color.adjust($theme-secondary, $lightness: 90%, $space: hsl);
             color: $theme-dark;
         }
         &.active {
             color: $theme-dark !important;
-            background-color: lighten($theme-secondary, 80%);
+            background-color: color.adjust($theme-secondary, $lightness: 80%, $space: hsl);
             &:hover {
-                background-color: lighten($theme-secondary, 90%);
+                background-color: color.adjust($theme-secondary, $lightness: 90%, $space: hsl);
             }
         }
     }
@@ -736,14 +738,14 @@ blockquote.academic {
     padding-right: 0;
 }
 
-  /* Safari */
-  @-webkit-keyframes spin {
+/* Safari */
+@-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
+}
+
+@keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-  }
+}
   
