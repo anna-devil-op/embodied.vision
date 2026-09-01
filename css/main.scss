@@ -4,12 +4,4 @@ layout: stylesheet
 
 @charset "utf-8";
 
-$theme-primary: white;
-$theme-dark: #222;
-$theme-background: white;
-$theme-secondary: rgb(31, 102, 255);
-
-@import
-        "mixins",
-        "base"
-;
+@use "base";
